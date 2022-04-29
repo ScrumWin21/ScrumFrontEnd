@@ -31,3 +31,6 @@ steps:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     ArtifactName: 'drop'
     publishLocation: 'Container'
+- task: NodeTool@0
+  inputs:
+    versionSpec: '6.x'
