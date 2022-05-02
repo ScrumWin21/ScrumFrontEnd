@@ -1,0 +1,54 @@
+.navbarThree {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 2px solid black;
+}
+
+span,
+button {
+    margin-right: 1.2rem;
+}
+
+span:hover {
+    border-bottom: 2px solid #20D3C2;
+    margin-bottom: 1rem;
+}
+
+#btn-browseCategories {
+    background-color: #20D3C2;
+    color: white;
+    margin-left: 3rem;
+    height: 50px;
+    width: 255px;
+    border: none;
+}
+
+#btn-specialOffer {
+    background-color: #20D3C2;
+    color: white;
+    margin-left: 3rem;
+    height: 38px;
+    width: 155px;
+    border-radius: 25px;
+    border: none;
+}
+
+.fa-angle-down {
+    margin-left: 0.2rem;
+    font-size: 0.9rem;
+    color: #20D3C2;
+}
+
+.fa-angle-down-white {
+    margin-left: 1rem;
+    font-size: 0.9rem;
+    color: white;
+}
+
+.fa-bars {
+    margin-right: 0.4rem;
+    font-size: 1.2rem;
+}
