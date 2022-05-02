@@ -1,15 +1,17 @@
-import "./App.css";
+// import "./App.css";
 import "./App.scss";
-import navbarThree from "./components/navbarThree/navbarThree";
+import { NavbarThree } from "./components/navbarThree/NavbarThree";
+import { Header } from "./components/Header";
 
 function App() {
   return (
     <>
     
-      <navbarThree></navbarThree>
+      <NavbarThree />
+      <Header />
     
     </>
-  )
+  );
 }
 
 export default App;
