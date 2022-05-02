@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+// ** Fonts **
+//**Note -  Font family 'Play' not on Google Fonts - Use FontMain for all
+//Font weights: 100, 300, 400, 500, 700, 900
+$FontMain: "Roboto", sans-serif;
+
+//Font sizing
+$FontSizeRegular: 16px;
+
+//Colors
+$ThemeColorTeal: #20d3c2;
+$ThemeColorDarkBlue: #0e153d;
+$Hot: #fe4545;
+$Sale: #64cb83;
+$ProductBackground: #eeeeee;
+$LightGreyBackground: #f6f6f6;
+$LineBullet: #e3e3e3;
+$White: #ffffff;
+
+.ContainerRegular {
+  width: 1100px;
+}
+
+.ContainerWide {
+  width: 1680px;
+}
