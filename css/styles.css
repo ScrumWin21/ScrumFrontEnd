@@ -11,6 +11,10 @@
   justify-content: center;
 }
 
+.flex {
+  display: flex;
+}
+
 .navbarThree {
   height: 50px;
   display: flex;

@@ -4,7 +4,6 @@ import React from "react";
 export const NavbarThree = () => {
   return (
     <>
-     
         <div className="navbarThree ContainerRegular">
           <button id="btn-browseCategories">
             <i class="fa-solid fa-bars"></i>Browse Categories
@@ -30,7 +29,6 @@ export const NavbarThree = () => {
           </span>
           <button id="btn-specialOffer">SPECIAL OFFER</button>
         </div>
-      
     </>
   );
 };
