@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="HotIcon" transform="translate(-430 -3524)">
+    <circle id="Ellipse_90" data-name="Ellipse 90" cx="30" cy="30" r="30" transform="translate(430 3524)" fill="#fe4545"/>
+    <text id="HOT" transform="translate(460 3559)" fill="#fff" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="-15.871" y="0">HOT</tspan></text>
+  </g>
+</svg>
