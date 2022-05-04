@@ -1,6 +1,6 @@
 // import "./App.css";
 import "./App.scss";
-import { NavbarThree } from "./components/navbarThree/NavbarThree";
+import { NavbarThree } from "./components/shared/NavbarThree";
 
 function App() {
   return (
