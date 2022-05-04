@@ -1,7 +1,12 @@
-import "./App.css";
+import "./App.scss";
+import { NavbarThree } from "./components/shared/NavbarThree";
 
 function App() {
-  return <div>Hello world!</div>;
+  return (
+    <>
+      <NavbarThree />
+    </>
+  );
 }
 
 export default App;
