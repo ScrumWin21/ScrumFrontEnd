@@ -4,7 +4,6 @@ import React from "react";
 export const NavbarThree = () => {
   return (
     <>
-      <div className="justifty-content-center">
         <div className="navbarThree ContainerRegular">
           <button id="btn-browseCategories">
             <i class="fa-solid fa-bars"></i>Browse Categories
@@ -17,7 +16,7 @@ export const NavbarThree = () => {
             Shop<i class="fa-solid fa-angle-down"></i>
           </span>
           <span>
-            Products<i class="fa-solid fa-angle-down"></i>
+            ProductsFörENGÖKEN<i class="fa-solid fa-angle-down"></i>
           </span>
           <span>
             Categories<i class="fa-solid fa-angle-down"></i>
@@ -30,7 +29,6 @@ export const NavbarThree = () => {
           </span>
           <button id="btn-specialOffer">SPECIAL OFFER</button>
         </div>
-      </div>
     </>
   );
 };

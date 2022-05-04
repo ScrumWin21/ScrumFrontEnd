@@ -1,14 +1,10 @@
 import "./App.scss";
-import { NavbarThree } from "./components/navbarThree/NavbarThree";
-import { Header } from "./components/Header";
+import { NavbarThree } from "./components/shared/NavbarThree";
 
 function App() {
   return (
     <>
-      
       <NavbarThree />
-      <Header />
-    
     </>
   );
 }
