@@ -16,7 +16,7 @@ export const NavbarThree = () => {
             Shop<i class="fa-solid fa-angle-down"></i>
           </span>
           <span>
-            ProductsFörENGÖKEN<i class="fa-solid fa-angle-down"></i>
+            Products<i class="fa-solid fa-angle-down"></i>
           </span>
           <span>
             Categories<i class="fa-solid fa-angle-down"></i>
