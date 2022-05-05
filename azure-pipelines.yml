@@ -24,12 +24,12 @@ steps:
 - task: CopyFiles@2
   inputs:
     Contents: 'build/**'
-    TargetFolder: '$(Build.ArtifactStagingDirectory'
-  displayName: 'copy files to staging directory'
-  
+    TargetFolder: '$(build.artifactStagingDirectory)'
+  displayName: 'copy files'
+
 - task: PublishBuildArtifacts@1
   inputs:
-    PathtoPublish: '$(build.ArtifactStagingDirectory)'
-    ArtifactName: 'files'
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'drop'
     publishLocation: 'Container'
-  displayName: 'publishing to artifact'
+  displayName: 'publish artifact'
