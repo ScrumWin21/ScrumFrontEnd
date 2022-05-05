@@ -29,7 +29,7 @@ steps:
   
 - task: PublishBuildArtifacts@1
   inputs:
-    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    PathtoPublish: '$(build.ArtifactStagingDirectory)'
     ArtifactName: 'files'
     publishLocation: 'Container'
   displayName: 'publishing to artifact'
