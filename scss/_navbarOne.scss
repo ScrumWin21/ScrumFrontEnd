@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    .bg-blue {
+        background-color: $ThemeColorTeal;
+        .g-split {
+            font-family: $FontMain;
+            color: $White;
+            margin: 0 auto;
+            padding: 14px 0 14px 0;
+            justify-content: space-between;
+            .currency {
+                padding-right: 16px;
+            }
+            .space {
+                padding-left: 18px;
+            }
+            .vertical-border {
+                border-right: 1px solid $White;
+                padding-right: 18px;
+            }
+            a {
+                text-decoration: none;
+                color: $White;
+            }
+            a:hover {
+                color: $ThemeColorDarkBlue;
+            }
+        }
+    }
+}
