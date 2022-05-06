@@ -1,0 +1,56 @@
+#home-showcase-one {
+    background-color: $ProductBackground;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: $FontMain;
+}
+
+#home-showcaseOne-left {
+    border: 1px solid black;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+h3 {
+    font-size: 3.75rem;
+    font-weight: 400;
+    color: $ThemeColorDarkBlue;
+    margin: 0;
+}
+
+h2 {
+    font-size: 3.75rem;
+    font-weight: 800;
+    color: $ThemeColorTeal;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+p {
+    color: $ThemeColorDarkBlue;
+    margin: 0;
+    line-height: 1.5;
+}
+
+#home-showcaseOne-button {
+    margin-top: 47px;
+    background-color: $White;
+    width: 154px;
+    height: 54px;
+    border-radius: 28px;
+    border: none;
+    color: $ThemeColorTeal;
+    font-size: 1.125;
+    font-weight: 700;
+    transition: all ease 0.1s;
+    cursor: pointer;
+
+    &:hover {
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        transform: scale(1.02);
+    }
+}
