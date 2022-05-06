@@ -9,11 +9,13 @@
   width: 400px;
   height: 140px;
   background-color: rgb(183, 241, 241);
+  border: transparent;
   transition: all ease 0.2s;
   display: flex;
   cursor: pointer;
   &:hover {
     background-color: $ThemeColorTeal;
+    border: transparent;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     transform: scale(1.02);
     h4 {
@@ -22,14 +24,12 @@
     p {
       color: $White;
     }
-    img {
-      color: white;
-    }
   }
 }
 
 .showcaseTwo-card-icon {
-  width: 27%;
+  width: 30%;
+  padding-left: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
