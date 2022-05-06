@@ -1,4 +1,5 @@
 import React from "react";
+import picture from "../../images/homeImages/TwoPersons.svg";
 
 export const HomeShowcaseOne = () => {
   return (
@@ -17,7 +18,7 @@ export const HomeShowcaseOne = () => {
             </div>
           </div>
           <div id="home-showcaseTwo-right">
-            <h3>picture</h3>
+            <img src={picture}></img>
           </div>
         </div>
       </div>
