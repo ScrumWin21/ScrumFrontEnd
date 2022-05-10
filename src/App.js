@@ -1,6 +1,6 @@
 import "./App.scss";
-import { HomeShowcaseOne } from "./components/home/homeShowcaseOne";
 import { HomeShowcaseTwo } from "./components/index/homeShowcaseTwo";
+import { HomeShowcaseOne } from "./components/index/homeShowcaseOne";
 import NavbarOne from "./components/shared/NavbarOne";
 import { NavbarThree } from "./components/shared/NavbarThree";
 
