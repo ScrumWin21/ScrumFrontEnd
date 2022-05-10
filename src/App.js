@@ -1,5 +1,5 @@
 import "./App.scss";
-import { HomeShowcaseOne } from "./components/homeShowcaseOne/homeShowcaseOne";
+import { HomeShowcaseOne } from "./components/index/homeShowcaseOne";
 import NavbarOne from "./components/shared/NavbarOne";
 import { NavbarThree } from "./components/shared/NavbarThree";
 
