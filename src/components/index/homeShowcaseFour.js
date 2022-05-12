@@ -3,6 +3,7 @@ import sqiggleLine from "../../images/homeImages/sqiggleLine.svg";
 import { DisplayNew } from "../shared/smallFeatures/DisplayNew";
 import { BackArrow } from "../shared/smallFeatures/BackArrow";
 import { ForwardArrow } from "../shared/smallFeatures/ForwardArrow";
+import { CarouselCircles } from "../shared/smallFeatures/CarouselCircles";
 
 export const HomeShowcaseFour = () => {
   return (
@@ -24,6 +25,9 @@ export const HomeShowcaseFour = () => {
             >
               <div className="product-card-regular">
                 <DisplayNew />
+                <div id="showcaseFour-card-bottom">
+                  <p>Blue silk flare sleeved top</p>
+                </div>
               </div>
               <div className="product-card-regular"></div>
               <div className="product-card-regular">
@@ -33,6 +37,11 @@ export const HomeShowcaseFour = () => {
             <ForwardArrow />
           </div>
         </div>
+      </div>
+      <div className="ContainerRegular flex carousel-counter margin-lr-auto">
+        <CarouselCircles />
+        <CarouselCircles />
+        <CarouselCircles />
       </div>
     </>
   );
