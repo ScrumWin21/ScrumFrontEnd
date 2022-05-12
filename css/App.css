@@ -1,0 +1,371 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+.ContainerRegular {
+  width: 1100px;
+}
+
+.ContainerWide {
+  width: 1680px;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.margin-lr-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  margin: 0;
+}
+
+body .bg-blue {
+  background-color: #20d3c2;
+}
+
+body .bg-blue .g-split {
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  margin: 0 auto;
+  padding: 14px 0 14px 0;
+  justify-content: space-between;
+}
+
+body .bg-blue .g-split .currency {
+  padding-right: 16px;
+}
+
+body .bg-blue .g-split .space {
+  padding-left: 18px;
+}
+
+body .bg-blue .g-split .vertical-border {
+  border-right: 1px solid #ffffff;
+  padding-right: 18px;
+}
+
+body .bg-blue .g-split a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+body .bg-blue .g-split a:hover {
+  color: #0e153d;
+}
+
+.bg {
+  border-top: 2px solid #e3e3e3;
+}
+
+.navbarThree {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Roboto", sans-serif;
+}
+
+span,
+button {
+  margin-right: 1.2rem;
+}
+
+span:hover {
+  border-bottom: 2px solid #20D3C2;
+  margin-bottom: 1rem;
+}
+
+#btn-browseCategories {
+  background-color: #20D3C2;
+  color: white;
+  height: 50px;
+  width: 255px;
+  border: none;
+  font-size: 18px;
+}
+
+#btn-specialOffer {
+  background-color: #20D3C2;
+  color: white;
+  margin-left: 3rem;
+  height: 38px;
+  width: 170px;
+  border-radius: 25px;
+  border: none;
+  margin-right: 0;
+  font-size: 16px;
+}
+
+.fa-angle-down {
+  margin-left: 0.2rem;
+  font-size: 0.9rem;
+  color: #20D3C2;
+}
+
+.fa-angle-down-white {
+  margin-left: 1rem;
+  font-size: 0.9rem;
+  color: white;
+}
+
+.fa-bars {
+  margin-right: 0.4rem;
+  font-size: 1.2rem;
+}
+
+#home-showcase-one {
+  background-color: #eeeeee;
+  height: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+}
+
+#home-showcaseOne-left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+h3 {
+  font-size: 3.75rem;
+  font-weight: 400;
+  color: #0e153d;
+  margin: 0;
+}
+
+h2 {
+  font-size: 3.75rem;
+  font-weight: 800;
+  color: #20d3c2;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+p {
+  color: #0e153d;
+  margin: 0;
+  line-height: 1.5;
+}
+
+#home-showcaseOne-button {
+  margin-top: 47px;
+  background-color: #ffffff;
+  width: 154px;
+  height: 54px;
+  border-radius: 28px;
+  border: none;
+  color: #20d3c2;
+  font-size: 1.125;
+  font-weight: 700;
+  transition: all ease 0.1s;
+  cursor: pointer;
+}
+
+#home-showcaseOne-button:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  transform: scale(1.02);
+}
+
+.home-showcaseTwo-container {
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 120px;
+}
+
+.home-showcaseTwo-card {
+  width: 400px;
+  height: 140px;
+  background-color: #b7f1f1;
+  border: transparent;
+  transition: all ease 0.2s;
+  display: flex;
+  cursor: pointer;
+}
+
+.home-showcaseTwo-card:hover {
+  background-color: #20d3c2;
+  border: transparent;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  transform: scale(1.02);
+}
+
+.home-showcaseTwo-card:hover h4 {
+  color: #ffffff;
+}
+
+.home-showcaseTwo-card:hover p {
+  color: #ffffff;
+}
+
+.showcaseTwo-card-icon {
+  width: 30%;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.showcaseTwo-card-text {
+  margin-left: 30px;
+  padding-right: 40px;
+}
+
+.showcaseTwo-card-text h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #20d3c2;
+  font-weight: 700;
+}
+
+.showcaseTwo-card-text p {
+  color: #0e153d;
+  font-family: "Roboto", sans-serif;
+}
+
+#home-showcase-three {
+  text-align: center;
+  margin-top: 115px;
+  font-family: "Roboto", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#home-showcase-three span {
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+
+#home-showcase-three #shop-by {
+  color: #0e153d;
+}
+
+#home-showcase-three #category {
+  color: #20d3c2;
+}
+
+#home-showcase-three p {
+  color: #0e153d;
+  font-weight: 500;
+}
+
+#home-showcase-three #sqiggleLine-home {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#homeShowcaseThree-grid {
+  display: grid;
+  width: 100%;
+  height: 660px;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: auto auto auto;
+  row-gap: 12px;
+  column-gap: 12px;
+  margin-top: 40px;
+}
+
+.home-grid-box-gray {
+  background-color: #cccccc;
+  border-radius: 8px;
+  position: relative;
+  transition: all ease 0.2s;
+  cursor: pointer;
+}
+
+.home-grid-box-gray:hover {
+  transform: scale(1.02);
+  background-color: #20d3c2;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.home-grid-box-blue {
+  background-color: #0e153d;
+  width: 50%;
+  height: 40px;
+  display: flex;
+  float: left;
+  position: absolute;
+  bottom: 0;
+  align-items: center;
+  border-bottom-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.home-grid-box-blue h3 {
+  color: #20d3c2;
+  font-size: 16px;
+  font-weight: 500;
+  padding-left: 15px;
+}
+
+.home-grid-box-blueTwo {
+  background-color: #0e153d;
+  width: 50%;
+  height: 75px;
+  display: flex;
+  float: left;
+  position: absolute;
+  bottom: 0;
+  align-items: center;
+  border-bottom-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.home-grid-box-blueTwo #box-blueTwo-large {
+  padding-top: auto;
+  padding-bottom: auto;
+}
+
+.home-grid-box-blueTwo #box-blueTwo-large h3 {
+  margin-bottom: 0px;
+}
+
+.home-grid-box-blueTwo #box-blueTwo-large h4 {
+  margin: 0;
+  padding-top: 2px;
+  padding-left: 15px;
+  color: #ffffff;
+  font-weight: 300;
+}
+
+.home-grid-box-blueTwo h3 {
+  color: #20d3c2;
+  font-size: 16px;
+  font-weight: 500;
+  padding-left: 15px;
+}
+
+#home-showcaseThree-grid-boxTwo {
+  grid-column: 2/4;
+}
+
+#home-showcaseThree-grid-boxThree {
+  grid-column: 4/6;
+  grid-row: 1/3;
+}
+
+#home-showcaseThree-grid-boxFour {
+  grid-column: 1/3;
+  grid-row: 2/4;
+}
+
+#home-showcaseThree-grid-boxFive {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+#home-showcaseThree-grid-boxSix {
+  grid-column: 3/5;
+  grid-row: 3;
+}
