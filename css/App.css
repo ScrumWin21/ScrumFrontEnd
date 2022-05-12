@@ -259,7 +259,7 @@ p {
   font-weight: 500;
 }
 
-#home-showcase-three #sqiggleLine-home {
+.sqiggleLine-home {
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -370,6 +370,74 @@ p {
   grid-row: 3;
 }
 
+#home-showcase-four {
+  text-align: center;
+  margin-top: 118px;
+  font-family: "Roboto", sans-serif;
+}
+
+#home-showcase-four #new {
+  color: #0e153d;
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+
+#home-showcase-four #arrivales {
+  color: #20d3c2;
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+
+#home-showcase-four p {
+  color: #0e153d;
+  margin-top: 30px;
+}
+
+#home-newArrivals-cards-container {
+  justify-content: space-between;
+  display: flex;
+}
+
+.product-card-regular {
+  width: 350px;
+  height: 350px;
+  background-color: #eeeeee;
+  position: relative;
+  border-radius: 8px;
+}
+
+.newArrivals-cards {
+  display: flex;
+  width: 1268px;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+#showcaseFour-card-bottom {
+  width: 100%;
+  height: 50px;
+  background-color: #0e153d;
+  position: absolute;
+  bottom: 0;
+}
+
+#showcaseFour-card-bottom p {
+  color: white;
+  float: left;
+  padding-left: 25px;
+  margin-top: 0;
+  padding-top: 15px;
+}
+
+.carousel-counter {
+  width: 50px;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 120px;
+}
+
 .btnshowcasefive {
   border: none;
   width: 155px;
@@ -446,4 +514,82 @@ p {
   background-color: #ffffff;
   color: #20d3c2;
   width: 190px;
+}
+
+#displayNew {
+  width: 60px;
+  height: 60px;
+  background-color: #20d3c2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  border-radius: 50%;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+#back-arrow {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #aaaaaa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: all ease 0.2s;
+}
+
+#back-arrow:hover {
+  background-color: #20d3c2;
+  border: 1px solid #20d3c2;
+  transform-origin: center;
+}
+
+#back-arrow:hover .fa-chevron-left {
+  color: #ffffff;
+}
+
+.fa-chevron-left {
+  color: #aaaaaa;
+  font-size: 1.8rem;
+  font-weight: 200;
+}
+
+#forward-arrow {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #aaaaaa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: all ease 0.2s;
+}
+
+#forward-arrow:hover {
+  background-color: #20d3c2;
+  border: 1px solid #20d3c2;
+  transform-origin: center;
+}
+
+#forward-arrow:hover .fa-chevron-right {
+  color: #ffffff;
+}
+
+.fa-chevron-right {
+  color: #aaaaaa;
+  font-size: 1.8rem;
+  font-weight: 200;
+}
+
+#carouselCircles {
+  width: 12px;
+  height: 12px;
+  background-color: #707070;
+  border-radius: 50%;
 }
