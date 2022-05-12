@@ -4,6 +4,7 @@ import { HomeShowcaseOne } from "./components/index/homeShowcaseOne";
 import NavbarOne from "./components/shared/NavbarOne";
 import { NavbarThree } from "./components/shared/NavbarThree";
 import { HomeShowcaseThree } from "./components/index/homeShowcaseThree";
+import HomeShowcaseFive from "./components/index/homeShowcaseFive";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <HomeShowcaseOne />
       <HomeShowcaseTwo />
       <HomeShowcaseThree />
+      <HomeShowcaseFive />
     </>
   );
 }

@@ -369,3 +369,81 @@ p {
   grid-column: 3/5;
   grid-row: 3;
 }
+
+.btnshowcasefive {
+  border: none;
+  width: 155px;
+  height: 55px;
+  border-radius: 28px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.bg {
+  background-color: #cccccc;
+  height: 420px;
+  display: flex;
+  justify-content: center;
+  border: none;
+}
+
+.bg .ContainerRegular {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bg .ContainerRegular .tealRectangle {
+  width: 255px;
+  height: 420px;
+  background-color: #20d3c2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.bg .ContainerRegular .tealRectangle p, .bg .ContainerRegular .tealRectangle span, .bg .ContainerRegular .tealRectangle button {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 1.2rem;
+}
+
+.bg .ContainerRegular .tealRectangle button {
+  background-color: #0e153d;
+}
+
+.bg .ContainerRegular .tealRectangle span {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.bg .ContainerRegular .tealRectangle #procent-off {
+  margin-bottom: 1.2rem;
+}
+
+.bg .ContainerRegular .tealRectangle #procent {
+  font-size: 60px;
+}
+
+.bg .ContainerRegular .tealRectangle #off {
+  font-size: 36px;
+}
+
+.bg .ContainerRegular .learnMore {
+  width: 445px;
+  font-family: "Roboto", sans-serif;
+}
+
+.bg .ContainerRegular .learnMore p {
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+  font-size: 14px;
+}
+
+.bg .ContainerRegular .learnMore button {
+  background-color: #ffffff;
+  color: #20d3c2;
+  width: 190px;
+}

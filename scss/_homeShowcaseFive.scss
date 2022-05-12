@@ -1,0 +1,79 @@
+.btnshowcasefive {
+    border: none;
+    width: 155px;
+    height: 55px;
+    border-radius: 28px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.bg {
+    background-color: #cccccc;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    border: none;
+
+    .ContainerRegular {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        //TEAL RECTANGLE
+        .tealRectangle {
+            width: 255px;
+            height: 420px;
+            background-color: $ThemeColorTeal;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+
+            p, span, button {
+                color: white;
+                font-family: $FontMain;
+                margin-bottom: 1.2rem;
+            }
+            
+            button {
+                background-color: $ThemeColorDarkBlue;
+            }
+
+            span {
+                font-family: $FontMain;
+                font-weight: bold;
+            }
+
+            #procent-off {
+                margin-bottom: 1.2rem;
+            }
+
+            #procent {
+                font-size: 60px;
+            }
+
+            #off {
+                font-size: 36px;
+            }
+        }
+
+        //LEARN MORE
+        .learnMore {
+            width: 445px;
+            font-family: $FontMain;
+
+            p {
+                color: $White;
+                margin-bottom: 1.5rem;
+                font-size: 14px;
+            }
+
+            button {
+                background-color: $White;
+                color: $ThemeColorTeal;
+                width: 190px;
+            }
+        }
+    }
+}
