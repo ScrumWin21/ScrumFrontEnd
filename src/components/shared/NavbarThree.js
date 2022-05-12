@@ -4,7 +4,7 @@ import React from "react";
 export const NavbarThree = () => {
   return (
     <>
-      <div className="bg">
+      <div className="bgNavThree">
         <div className="navbarThree ContainerRegular">
             <button id="btn-browseCategories">
               <i class="fa-solid fa-bars"></i>Browse Categories
