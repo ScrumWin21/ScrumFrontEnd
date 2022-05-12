@@ -259,7 +259,7 @@ p {
   font-weight: 500;
 }
 
-#home-showcase-three #sqiggleLine-home {
+.sqiggleLine-home {
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -368,4 +368,50 @@ p {
 #home-showcaseThree-grid-boxSix {
   grid-column: 3/5;
   grid-row: 3;
+}
+
+#home-showcase-four {
+  border: 1px solid black;
+  text-align: center;
+  margin-top: 118px;
+  font-family: "Roboto", sans-serif;
+}
+
+#home-showcase-four #new {
+  color: #0e153d;
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+
+#home-showcase-four #arrivales {
+  color: #20d3c2;
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+
+#home-showcase-four p {
+  color: #0e153d;
+  margin-top: 30px;
+}
+
+#home-newArrivals-cards-container {
+  justify-content: space-between;
+  display: flex;
+}
+
+.product-card-regular {
+  width: 350px;
+  height: 350px;
+  background-color: #eeeeee;
+}
+
+#displayNew {
+  width: 60px;
+  height: 60px;
+  background-color: #20d3c2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  border-radius: 50%;
 }
