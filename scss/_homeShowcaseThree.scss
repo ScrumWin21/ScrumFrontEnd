@@ -42,6 +42,13 @@
   background-color: #cccccc;
   border-radius: 8px;
   position: relative;
+  transition: all ease 0.2s;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.02);
+    background-color: $ThemeColorTeal;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  }
 }
 
 .home-grid-box-blue {
@@ -77,19 +84,19 @@
   border-top-right-radius: 8px;
 
   #box-blueTwo-large {
-      padding-top: auto;
-      padding-bottom: auto;
-      h3 {
-        margin-bottom: 0px;
-      }
+    padding-top: auto;
+    padding-bottom: auto;
+    h3 {
+      margin-bottom: 0px;
+    }
 
-      h4 {
-          margin: 0;
-          padding-top: 2px;
-          padding-left: 15px;
-          color: $White;
-          font-weight: 300;
-      }
+    h4 {
+      margin: 0;
+      padding-top: 2px;
+      padding-left: 15px;
+      color: $White;
+      font-weight: 300;
+    }
   }
   h3 {
     color: $ThemeColorTeal;
