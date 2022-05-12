@@ -5,7 +5,10 @@
 @import "./homeShowcaseTwo";
 @import "./homeShowcaseThree";
 @import "./homeShowcaseFour";
-@import "./smallFeatures/displayNew";
+
+
+//Small features
+@import "./smallFeatures/smallFeatures";
 
 // ** Important **
 //When creating a new component for styling, make sure to @import "" file into this file, otherwise SCSS rendering will not work.

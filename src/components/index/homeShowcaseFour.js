@@ -1,11 +1,13 @@
 import React from "react";
 import sqiggleLine from "../../images/homeImages/sqiggleLine.svg";
 import { DisplayNew } from "../shared/smallFeatures/DisplayNew";
+import { BackArrow } from "../shared/smallFeatures/BackArrow";
+import { ForwardArrow } from "../shared/smallFeatures/ForwardArrow";
 
 export const HomeShowcaseFour = () => {
   return (
     <>
-      <div id="home-showcase-four" className="ContainerRegular margin-lr-auto">
+      <div id="home-showcase-four">
         <div>
           <span id="new">NEW</span>
           <span id="arrivales">ARRIVALS</span>
@@ -14,12 +16,21 @@ export const HomeShowcaseFour = () => {
             <p>Check out our latest products from top fashion designers</p>
           </div>
 
-          <div id="home-newArrivals-cards-container">
-            <div className="product-card-regular">
-              <DisplayNew />
+          <div className="newArrivals-cards">
+            <BackArrow />
+            <div
+              id="home-newArrivals-cards-container"
+              className="ContainerRegular margin-lr-auto"
+            >
+              <div className="product-card-regular">
+                <DisplayNew />
+              </div>
+              <div className="product-card-regular"></div>
+              <div className="product-card-regular">
+                <DisplayNew />
+              </div>
             </div>
-            <div className="product-card-regular"></div>
-            <div className="product-card-regular"></div>
+            <ForwardArrow />
           </div>
         </div>
       </div>

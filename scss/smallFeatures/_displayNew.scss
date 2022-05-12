@@ -1,10 +1,12 @@
 #displayNew {
-    width: 60px;
-    height: 60px;
-    background-color: $ThemeColorTeal;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: $White;
-    border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background-color: $ThemeColorTeal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $White;
+  border-radius: 50%;
+  margin-left: 15px;
+  margin-top: 15px;
 }

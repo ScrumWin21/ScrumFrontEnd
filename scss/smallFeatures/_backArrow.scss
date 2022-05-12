@@ -1,0 +1,30 @@
+#back-arrow {
+    width: 60px;
+    height: 60px;
+    // background-color: $ThemeColorTeal;
+    border: 1px solid #aaaaaa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: all ease 0.2s;
+
+    &:hover {
+        background-color: $ThemeColorTeal;
+        border: 1px solid $ThemeColorTeal;
+        transform-origin: center;
+
+        .fa-chevron-left {
+            color: $White;
+        }
+    }
+}
+
+.fa-chevron-left {
+    color: #aaaaaa;
+    font-size: 1.8rem;
+    font-weight: 200;
+}
