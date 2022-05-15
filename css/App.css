@@ -58,7 +58,7 @@ body .bg-blue .g-split a:hover {
   color: #0e153d;
 }
 
-.bg {
+.bgNavThree {
   border-top: 2px solid #e3e3e3;
 }
 
@@ -513,7 +513,106 @@ p {
 .bg .ContainerRegular .learnMore button {
   background-color: #ffffff;
   color: #20d3c2;
+  font-family: "Roboto", sans-serif;
   width: 190px;
+}
+
+.homeS7-bg {
+  background-color: #0e153d;
+  height: 420px;
+  display: flex;
+  justify-content: center;
+  border: none;
+}
+
+.homeS7-bg .ContainerRegular {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.homeS7-bg .ContainerRegular .tealSquare {
+  width: 255px;
+  height: 265px;
+  background-color: #20d3c2;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.homeS7-bg .ContainerRegular .tealSquare p {
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+}
+
+.homeS7-bg .ContainerRegular .tealSquare .flashsale {
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.homeS7-bg .ContainerRegular .tealSquare .flashsaleTop {
+  margin-bottom: -1.4rem;
+}
+
+.homeS7-bg .ContainerRegular .tealSquare #upTo {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.homeS7-bg .ContainerRegular .saleStats button {
+  margin-top: 1.4rem;
+  color: #20d3c2;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  margin: 2rem 0 0 0;
+}
+
+.homeS7-bg .ContainerRegular .saleStats .circles-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.homeS7-bg .ContainerRegular .saleStats .circles-btn .circles {
+  display: flex;
+  justify-content: center;
+}
+
+.homeS7-bg .ContainerRegular .saleStats .circles-btn .circles .circle {
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: dotted #20d3c2 2px;
+  font-family: "Roboto", sans-serif;
+}
+
+.homeS7-bg .ContainerRegular .saleStats .circles-btn .circles .circle .btnshowcasefive {
+  align-self: center;
+  margin-top: 1.4rem;
+  color: #20d3c2;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.homeS7-bg .ContainerRegular .saleStats .circles-btn .circles .circle .statsNumbers {
+  font-size: 36px;
+  color: #20d3c2;
+  font-weight: 700;
+}
+
+.homeS7-bg .ContainerRegular .saleStats .circles-btn .circles .circle .statsLetters {
+  font-size: 16px;
+  margin-top: -0.4rem;
 }
 
 #displayNew {
