@@ -1,0 +1,107 @@
+.bg-S8 {
+    height: 1085px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $FontMain;
+
+    .ContainerRegular {
+        
+        .S8Headers {
+            text-align: center;
+            .S8Header {
+                margin-bottom: 1.5rem;
+
+                span {
+                    margin-right: 0.55rem;
+                    font-size: 36px;
+                    font-weight: 700;
+                }
+            }
+
+            p {
+                font-size: 16px;
+                color: $ThemeColorDarkBlue;
+                margin-top: 1.5rem;
+                margin-bottom: 1.5rem;
+            }
+
+            #S8Top {
+                color: $ThemeColorDarkBlue;
+            }
+            #S8Sellers {
+                color: $ThemeColorTeal;
+            }
+            
+        }
+
+        .S8Content {
+            display: flex;
+
+            .S8ContentFooters {
+                background-color: $ThemeColorDarkBlue;
+                width: 100%;
+                height: 52px;
+
+                position: absolute;
+                bottom: 0;
+
+                display: flex;
+                align-items: center;
+                padding-left: 1.5rem;
+
+                p {
+                    color: $White;
+                }
+            }
+
+            .S8LeftContent {
+                height: 700px;
+                margin-right: 10px;
+                overflow: hidden;
+                background-color: $LightGreyBackground;
+                border-radius: 10px;
+                
+                position: relative;
+
+                #beximlogo {
+                    position: absolute;
+                    top: 1rem;
+                    left: 1rem;
+                }
+            }
+
+            .S8RightContent {
+
+                .S8RightTopContent {
+                    height: 345px;
+                    margin-bottom: 10px;
+                    overflow: hidden;
+                    background-color: $LightGreyBackground;
+                    border-radius: 10px;
+
+                    position: relative;
+                    #lightonlogo {
+                        position: absolute;
+                        top: 1rem;
+                        left: 1rem;
+                    }
+                }
+
+                .S8RightBottomContent {
+                    height: 345px;
+                    overflow: hidden;
+                    background-color: $LightGreyBackground;
+                    border-radius: 10px;
+
+                    position: relative;
+                    #rosimologo {
+                        position: absolute;
+                        top: 1rem;
+                        left: 1rem;
+                    }
+                }
+            }
+        }
+    }
+}

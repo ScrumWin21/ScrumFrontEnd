@@ -7,6 +7,7 @@ import { HomeShowcaseThree } from "./components/index/homeShowcaseThree";
 import { HomeShowcaseFour } from "./components/index/homeShowcaseFour";
 import HomeShowcaseFive from "./components/index/homeShowcaseFive";
 import HomeShowcaseSeven from "./components/index/homeShowcaseSeven";
+import HomeShowcaseEight from "./components/index/homeShowcaseEight";
 
 import HomeShowcaseEleven from "./components/index/homeShowcaseEleven";
 import HomeShowcaseTwelve from "./components/index/homeShowcaseTwelve";
@@ -22,7 +23,7 @@ function App() {
       <HomeShowcaseFour />
       <HomeShowcaseFive />
       <HomeShowcaseSeven />
-
+      <HomeShowcaseEight />
       <HomeShowcaseEleven />
       <HomeShowcaseTwelve />
     </>
