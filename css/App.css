@@ -615,6 +615,71 @@ p {
   margin-top: -0.4rem;
 }
 
+.bg-S11 {
+  height: 315px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f6f6f6;
+  font-family: "Roboto", sans-serif;
+}
+
+.bg-S11 .ContainerRegular {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bg-S11 .ContainerRegular .left-S11 {
+  position: relative;
+}
+
+.bg-S11 .ContainerRegular .left-S11 span {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.bg-S11 .ContainerRegular .left-S11 #now {
+  color: #20d3c2;
+}
+
+.bg-S11 .ContainerRegular .left-S11 p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.bg-S11 .ContainerRegular .left-S11 input {
+  width: 445px;
+  height: 45px;
+  border-radius: 25px;
+  padding-left: 20px;
+  border: 1px solid #f6f6f6;
+}
+
+.bg-S11 .ContainerRegular .left-S11 input ::placeholder {
+  font-size: 14px;
+}
+
+.bg-S11 .ContainerRegular .left-S11 button {
+  width: 107px;
+  height: 40px;
+  border-radius: 25px;
+  font-size: 16px;
+  border: none;
+  background-color: #20d3c2;
+  color: #ffffff;
+  position: absolute;
+  z-index: 2;
+  bottom: 0.25rem;
+  right: -0.88rem;
+}
+
+.bg-S11 .ContainerRegular .right-S11 {
+  width: 540px;
+  height: 315px;
+  background-color: #eeeeee;
+}
+
 .bg-S12 {
   height: 285px;
   display: flex;

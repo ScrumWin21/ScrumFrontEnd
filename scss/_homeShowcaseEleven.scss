@@ -1,0 +1,66 @@
+.bg-S11 {
+    height: 315px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $LightGreyBackground;
+    font-family: $FontMain;
+
+    .ContainerRegular {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .left-S11 {
+            position: relative;
+
+            span {
+                font-size: 36px;
+                font-weight: 700;
+            }
+
+            #now {
+                color: $ThemeColorTeal;
+            }
+
+            p {
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+            }
+
+            input {
+                width: 445px;
+                height: 45px;
+                border-radius: 25px;
+                padding-left: 20px;
+                border: 1px solid $LightGreyBackground;
+
+                ::placeholder {
+                    font-size: 14px;
+                }
+            }
+
+            button {
+                width: 107px;
+                height: 40px;
+                border-radius: 25px;
+                font-size: 16px;
+                border: none;
+                background-color: $ThemeColorTeal;
+                color: $White;
+
+                position: absolute;
+                z-index: 2;
+                bottom: 0.25rem;
+                right: -0.88rem;
+            }
+        }
+
+        .right-S11 {
+            width: 540px;
+            height: 315px;
+            background-color: $ProductBackground;
+        }
+        
+    }
+}
