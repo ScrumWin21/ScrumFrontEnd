@@ -1,62 +1,61 @@
-
 .bgNavThree {
-    border-top: 2px solid $LineBullet;
+  border-top: 2px solid $LineBullet;
 }
 
 .navbarThree {
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: $FontMain;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: $FontMain;
 }
 
 span,
 button {
-    margin-right: 1.2rem;
+  margin-right: 1.2rem;
 }
 
 span:hover {
-    border-bottom: 2px solid #20D3C2;
-    margin-bottom: 1rem;
+  border-bottom: 2px solid #20d3c2;
+  margin-bottom: 1rem;
 }
 
 #btn-browseCategories {
-    background-color: #20D3C2;
-    color: white;
-    height: 50px;
-    width: 255px;
-    border: none;
-    font-size: 18px;
+  background-color: #20d3c2;
+  color: white;
+  height: 50px;
+  width: 255px;
+  border: none;
+  font-size: 18px;
 }
 
 #btn-specialOffer {
-    background-color: #20D3C2;
-    color: white;
-    margin-left: 3rem;
-    height: 38px;
-    width: 170px;
-    border-radius: 25px;
-    border: none;
-    margin-right: 0;
-    font-size: $FontSizeRegular;
+  background-color: #20d3c2;
+  color: white;
+  margin-left: 3rem;
+  height: 38px;
+  width: 170px;
+  border-radius: 25px;
+  border: none;
+  margin-right: 0;
+  font-size: $FontSizeRegular;
 }
 
 .fa-angle-down {
-    margin-left: 0.2rem;
-    font-size: 0.9rem;
-    color: #20D3C2;
+  margin-left: 0.2rem;
+  font-size: 0.9rem;
+  color: #20d3c2;
 }
 
 .fa-angle-down-white {
-    margin-left: 1rem;
-    font-size: 0.9rem;
-    color: white;
+  margin-left: 1rem;
+  font-size: 0.9rem;
+  color: white;
 }
 
 .fa-bars {
-    margin-right: 0.4rem;
-    font-size: 1.2rem;
+  margin-right: 0.4rem;
+  font-size: 1.2rem;
 }

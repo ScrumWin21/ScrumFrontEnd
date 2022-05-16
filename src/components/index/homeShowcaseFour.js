@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import sqiggleLine from "../../images/homeImages/sqiggleLine.svg";
 import { DisplayNew } from "../shared/smallFeatures/DisplayNew";
 import { BackArrow } from "../shared/smallFeatures/BackArrow";
@@ -6,6 +6,18 @@ import { ForwardArrow } from "../shared/smallFeatures/ForwardArrow";
 import { CarouselCircles } from "../shared/smallFeatures/CarouselCircles";
 
 export const HomeShowcaseFour = () => {
+  const [isHovering, setIsHovering] = useState(true);
+
+  function handleMouseEnter() {
+    setIsHovering(false);
+    console.log("hovering");
+  }
+
+  function handleMouseLeave() {
+    setIsHovering(true);
+    console.log("not hover");
+  }
+
   return (
     <>
       <div id="home-showcase-four">
@@ -23,12 +35,35 @@ export const HomeShowcaseFour = () => {
               id="home-newArrivals-cards-container"
               className="ContainerRegular margin-lr-auto"
             >
-              <div className="product-card-regular">
+              <div
+                className="product-card-regular"
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
+              >
                 <DisplayNew />
-                <div id="showcaseFour-card-bottom">
-                  <p>Blue silk flare sleeved top</p>
+                <div
+                  className={`showcaseFour-card-bottom ${
+                    isHovering ? "" : "display-information"
+                  }`}
+                >
+                  <h4 className="showcaseFour-card-header">
+                    Blue silk flare sleeved top
+                  </h4>
+                  <div className="showcaseFour-card-hover-information-container">
+                    <div className="showcaseFour-card-description">
+                      New look!
+                    </div>
+                    <div className="showcaseFour-card-small-box">
+                      <div className="showcaseFour-category">Fashion</div>
+                    </div>
+                    <div className="showcaseFour-card-orginal-price">
+                      $299.00
+                    </div>
+                    <div className="showcaseFour-card-sale-price">$190.00</div>
+                  </div>
                 </div>
               </div>
+
               <div className="product-card-regular"></div>
               <div className="product-card-regular">
                 <DisplayNew />

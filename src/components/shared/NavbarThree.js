@@ -7,26 +7,26 @@ export const NavbarThree = () => {
       <div className="bgNavThree">
         <div className="navbarThree ContainerRegular">
             <button id="btn-browseCategories">
-              <i class="fa-solid fa-bars"></i>Browse Categories
-              <i class="fa-solid fa-angle-down fa-angle-down-white"></i>
+              <i className="fa-solid fa-bars"></i>Browse Categories
+              <i className="fa-solid fa-angle-down fa-angle-down-white"></i>
             </button>
             <span>
-              Home<i class="fa-solid fa-angle-down"></i>
+              Home<i className="fa-solid fa-angle-down"></i>
             </span>
             <span>
-              Shop<i class="fa-solid fa-angle-down"></i>
+              Shop<i className="fa-solid fa-angle-down"></i>
             </span>
             <span>
-              Products<i class="fa-solid fa-angle-down"></i>
+              Products<i className="fa-solid fa-angle-down"></i>
             </span>
             <span>
-              Categories<i class="fa-solid fa-angle-down"></i>
+              Categories<i className="fa-solid fa-angle-down"></i>
             </span>
             <span>
-              Pages<i class="fa-solid fa-angle-down"></i>
+              Pages<i className="fa-solid fa-angle-down"></i>
             </span>
             <span>
-              Blog<i class="fa-solid fa-angle-down"></i>
+              Blog<i className="fa-solid fa-angle-down"></i>
             </span>
             <button id="btn-specialOffer">SPECIAL OFFER</button>
           </div>

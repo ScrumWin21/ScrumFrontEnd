@@ -58,7 +58,7 @@ body .bg-blue .g-split a:hover {
   color: #0e153d;
 }
 
-.bg {
+.bgNavThree {
   border-top: 2px solid #e3e3e3;
 }
 
@@ -78,12 +78,12 @@ button {
 }
 
 span:hover {
-  border-bottom: 2px solid #20D3C2;
+  border-bottom: 2px solid #20d3c2;
   margin-bottom: 1rem;
 }
 
 #btn-browseCategories {
-  background-color: #20D3C2;
+  background-color: #20d3c2;
   color: white;
   height: 50px;
   width: 255px;
@@ -92,7 +92,7 @@ span:hover {
 }
 
 #btn-specialOffer {
-  background-color: #20D3C2;
+  background-color: #20d3c2;
   color: white;
   margin-left: 3rem;
   height: 38px;
@@ -106,7 +106,7 @@ span:hover {
 .fa-angle-down {
   margin-left: 0.2rem;
   font-size: 0.9rem;
-  color: #20D3C2;
+  color: #20d3c2;
 }
 
 .fa-angle-down-white {
@@ -415,20 +415,98 @@ p {
   align-items: center;
 }
 
-#showcaseFour-card-bottom {
+.showcaseFour-card-bottom {
   width: 100%;
   height: 50px;
   background-color: #0e153d;
   position: absolute;
   bottom: 0;
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
 }
 
-#showcaseFour-card-bottom p {
-  color: white;
+.showcaseFour-card-bottom .showcaseFour-card-header {
+  color: #ffffff;
   float: left;
   padding-left: 25px;
   margin-top: 0;
   padding-top: 15px;
+  transition: all ease-in-out 0.2s;
+}
+
+.showcaseFour-card-bottom .showcaseFour-card-hover-information-container {
+  position: absolute;
+  height: 40%;
+  bottom: 0;
+  margin-bottom: 30px;
+  padding-left: 25px;
+}
+
+.showcaseFour-card-bottom .showcaseFour-card-description {
+  display: none;
+  transition: all ease-in-out 1.2s;
+  color: #ffffff;
+  margin-bottom: 15px;
+  border: 1px solid red;
+  width: 100%;
+}
+
+.showcaseFour-card-bottom .showcaseFour-card-small-box {
+  display: flex;
+  justify-content: center;
+  width: 70px;
+  height: 25px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  display: none;
+  margin-bottom: 15px;
+}
+
+.showcaseFour-card-bottom .showcaseFour-card-small-box .showcaseFour-category {
+  text-align: center;
+}
+
+.showcaseFour-card-bottom .showcaseFour-card-orginal-price {
+  text-decoration: line-through;
+  color: #ffffff;
+  display: none;
+  margin-bottom: 15px;
+  border: 1px solid red;
+}
+
+.showcaseFour-card-bottom .showcaseFour-card-sale-price {
+  color: #20d3c2;
+  font-size: 1.5rem;
+  margin: 0;
+  display: none;
+  border: 1px solid red;
+}
+
+.display-information {
+  width: 100%;
+  height: 100%;
+  background-color: #0e153d;
+  border-radius: 8px;
+}
+
+.display-information .showcaseFour-card-header {
+  display: none;
+}
+
+.display-information .showcaseFour-card-description {
+  display: block;
+}
+
+.display-information .showcaseFour-card-small-box {
+  display: block;
+}
+
+.display-information .showcaseFour-card-orginal-price {
+  display: block;
+}
+
+.display-information .showcaseFour-card-sale-price {
+  display: block;
 }
 
 .carousel-counter {
@@ -513,6 +591,7 @@ p {
 .bg .ContainerRegular .learnMore button {
   background-color: #ffffff;
   color: #20d3c2;
+  font-family: "Roboto", sans-serif;
   width: 190px;
 }
 
