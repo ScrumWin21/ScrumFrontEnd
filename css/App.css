@@ -615,6 +615,25 @@ p {
   margin-top: -0.4rem;
 }
 
+.bg-S12 {
+  height: 285px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-S12 .ContainerRegular {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-S12 .ContainerRegular .companies {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
 #displayNew {
   width: 60px;
   height: 60px;

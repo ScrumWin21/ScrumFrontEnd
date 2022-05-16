@@ -8,6 +8,8 @@ import { HomeShowcaseFour } from "./components/index/homeShowcaseFour";
 import HomeShowcaseFive from "./components/index/homeShowcaseFive";
 import HomeShowcaseSeven from "./components/index/homeShowcaseSeven";
 
+import HomeShowcaseTwelve from "./components/index/homeShowcaseTwelve";
+
 function App() {
   return (
     <>
@@ -19,6 +21,8 @@ function App() {
       <HomeShowcaseFour />
       <HomeShowcaseFive />
       <HomeShowcaseSeven />
+
+      <HomeShowcaseTwelve />
     </>
   );
 }

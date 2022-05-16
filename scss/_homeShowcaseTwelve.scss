@@ -1,0 +1,18 @@
+.bg-S12 {
+    height: 285px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .ContainerRegular {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        .companies {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
