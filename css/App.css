@@ -404,6 +404,7 @@ p {
   background-color: #eeeeee;
   position: relative;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 .newArrivals-cards {
@@ -434,7 +435,7 @@ p {
   transition: all ease-in-out 0.2s;
 }
 
-.showcaseFour-card-bottom .showcaseFour-card-hover-information-container {
+.showcaseFour-card-hover-information-container {
   position: absolute;
   height: 40%;
   bottom: 0;
@@ -442,50 +443,54 @@ p {
   padding-left: 25px;
 }
 
-.showcaseFour-card-bottom .showcaseFour-card-description {
+.showcaseFour-card-description {
   display: none;
   transition: all ease-in-out 1.2s;
   color: #ffffff;
+  margin: 0;
+  padding: 0;
   margin-bottom: 15px;
-  border: 1px solid red;
   width: 100%;
+  text-align: left;
 }
 
-.showcaseFour-card-bottom .showcaseFour-card-small-box {
+.showcaseFour-card-small-box {
+  transition: all ease-in-out 1.2s;
   display: flex;
   justify-content: center;
   width: 70px;
   height: 25px;
-  border: 1px solid #ffffff;
+  border: 2px solid #ffffff;
   color: #ffffff;
   display: none;
   margin-bottom: 15px;
 }
 
-.showcaseFour-card-bottom .showcaseFour-card-small-box .showcaseFour-category {
+.showcaseFour-card-small-box .showcaseFour-category {
   text-align: center;
+  padding-top: 3px;
 }
 
-.showcaseFour-card-bottom .showcaseFour-card-orginal-price {
+.showcaseFour-card-orginal-price {
   text-decoration: line-through;
   color: #ffffff;
   display: none;
   margin-bottom: 15px;
-  border: 1px solid red;
+  text-align: left;
+  transition: all ease-in-out 1.2s;
 }
 
-.showcaseFour-card-bottom .showcaseFour-card-sale-price {
+.showcaseFour-card-sale-price {
   color: #20d3c2;
   font-size: 1.5rem;
   margin: 0;
   display: none;
-  border: 1px solid red;
 }
 
 .display-information {
   width: 100%;
   height: 100%;
-  background-color: #0e153d;
+  background-color: rgba(14, 21, 61, 0.8);
   border-radius: 8px;
 }
 

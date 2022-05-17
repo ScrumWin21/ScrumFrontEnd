@@ -50,9 +50,7 @@ export const HomeShowcaseFour = () => {
                     Blue silk flare sleeved top
                   </h4>
                   <div className="showcaseFour-card-hover-information-container">
-                    <div className="showcaseFour-card-description">
-                      New look!
-                    </div>
+                    <h4 className="showcaseFour-card-description">New look!</h4>
                     <div className="showcaseFour-card-small-box">
                       <div className="showcaseFour-category">Fashion</div>
                     </div>
