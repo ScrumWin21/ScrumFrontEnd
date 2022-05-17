@@ -601,6 +601,191 @@ p {
   width: 190px;
 }
 
+.homeS7-bg {
+  background-color: #0e153d;
+  height: 420px;
+  display: flex;
+  justify-content: center;
+  border: none;
+}
+
+.homeS7-bg .ContainerRegular {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.homeS7-bg .ContainerRegular .tealSquare {
+  width: 255px;
+  height: 265px;
+  background-color: #20d3c2;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.homeS7-bg .ContainerRegular .tealSquare p {
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+}
+
+.homeS7-bg .ContainerRegular .tealSquare .flashsale {
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.homeS7-bg .ContainerRegular .tealSquare .flashsaleTop {
+  margin-bottom: -1.4rem;
+}
+
+.homeS7-bg .ContainerRegular .tealSquare #upTo {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.homeS7-bg .ContainerRegular .saleStats button {
+  margin-top: 1.4rem;
+  color: #20d3c2;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  margin: 2rem 0 0 0;
+}
+
+.homeS7-bg .ContainerRegular .saleStats .circles-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.homeS7-bg .ContainerRegular .saleStats .circles-btn .circles {
+  display: flex;
+  justify-content: center;
+}
+
+.homeS7-bg .ContainerRegular .saleStats .circles-btn .circles .circle {
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: dotted #20d3c2 2px;
+  font-family: "Roboto", sans-serif;
+}
+
+.homeS7-bg .ContainerRegular .saleStats .circles-btn .circles .circle .btnshowcasefive {
+  align-self: center;
+  margin-top: 1.4rem;
+  color: #20d3c2;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.homeS7-bg .ContainerRegular .saleStats .circles-btn .circles .circle .statsNumbers {
+  font-size: 36px;
+  color: #20d3c2;
+  font-weight: 700;
+}
+
+.homeS7-bg .ContainerRegular .saleStats .circles-btn .circles .circle .statsLetters {
+  font-size: 16px;
+  margin-top: -0.4rem;
+}
+
+.bg-S11 {
+  height: 315px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f6f6f6;
+  font-family: "Roboto", sans-serif;
+}
+
+.bg-S11 .ContainerRegular {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bg-S11 .ContainerRegular .left-S11 {
+  position: relative;
+}
+
+.bg-S11 .ContainerRegular .left-S11 span {
+  font-size: 36px;
+  font-weight: 700;
+  color: #0e153d;
+}
+
+.bg-S11 .ContainerRegular .left-S11 #now {
+  color: #20d3c2;
+  margin-left: -7px;
+}
+
+.bg-S11 .ContainerRegular .left-S11 p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #0e153d;
+}
+
+.bg-S11 .ContainerRegular .left-S11 input {
+  width: 445px;
+  height: 45px;
+  border-radius: 25px;
+  padding-left: 20px;
+  border: 1px solid #f6f6f6;
+}
+
+.bg-S11 .ContainerRegular .left-S11 input ::placeholder {
+  font-size: 14px;
+}
+
+.bg-S11 .ContainerRegular .left-S11 button {
+  width: 107px;
+  height: 40px;
+  border-radius: 25px;
+  font-size: 16px;
+  border: none;
+  background-color: #20d3c2;
+  color: #ffffff;
+  position: absolute;
+  z-index: 2;
+  bottom: 0.25rem;
+  right: -0.88rem;
+}
+
+.bg-S11 .ContainerRegular .right-S11 {
+  width: 540px;
+  height: 315px;
+  background-color: #eeeeee;
+}
+
+.bg-S12 {
+  height: 285px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-S12 .ContainerRegular {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-S12 .ContainerRegular .companies {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
 #displayNew {
   width: 60px;
   height: 60px;
