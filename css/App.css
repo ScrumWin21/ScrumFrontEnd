@@ -895,18 +895,18 @@ p {
 }
 
 .fa-heart {
-  color: #AAAAAA;
+  color: #aaaaaa;
   font-size: 1.5rem;
   padding-left: 2px;
   margin-top: 15px;
 }
 
 .fa-heart:hover {
-  color: #fe4545;
+  color: #20d3c2;
 }
 
 .fa-shuffle {
-  color: #AAAAAA;
+  color: #aaaaaa;
   font-size: 1.5rem;
   padding-left: 2px;
   margin-top: 15px;
@@ -917,7 +917,7 @@ p {
 }
 
 .fa-magnifying-glass {
-  color: #AAAAAA;
+  color: #aaaaaa;
   font-size: 1.5rem;
   padding-left: 2px;
   margin-top: 15px;
@@ -928,7 +928,7 @@ p {
 }
 
 .fa-cart-shopping {
-  color: #AAAAAA;
+  color: #aaaaaa;
   font-size: 1.5rem;
   padding-left: 2px;
   margin-top: 15px;

@@ -19,6 +19,8 @@ export const HomeShowcaseFour = () => {
     console.log("not hover");
   }
 
+
+
   return (
     <>
       <div id="home-showcase-four">
@@ -80,9 +82,11 @@ export const HomeShowcaseFour = () => {
         </div>
       </div>
       <div className="ContainerRegular flex carousel-counter margin-lr-auto">
+        
+       
         <CarouselCircles />
         <CarouselCircles />
-        <CarouselCircles />
+        <CarouselCircles /> 
       </div>
     </>
   );
