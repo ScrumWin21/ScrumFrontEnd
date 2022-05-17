@@ -42,7 +42,13 @@ export const HomeShowcaseFour = () => {
                 onMouseLeave={handleMouseLeave}
               >
                 <DisplayNew />
-                <DropDownCardMenu />
+                <div className={`displayNone ${
+                    isHovering ? "" : "displayBlock"
+                  }`}>
+                <DropDownCardMenu/>
+
+                </div>
+               
                 <div
                   className={`showcaseFour-card-bottom ${
                     isHovering ? "" : "display-information"

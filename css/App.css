@@ -864,17 +864,18 @@ p {
   border-radius: 50%;
 }
 
-.menuContainer {
-  height: 46px;
+.menuCardContainer {
+  height: 200px;
   width: 46px;
   color: #ffffff;
   border-radius: 25px;
   background-color: #ffffff;
   position: absolute;
-  right: 15px;
+  right: -10px;
   top: 15px;
   z-index: 5;
   transition: all ease 0.5s;
+  opacity: 0;
 }
 
 .menuContainerInside {
@@ -887,30 +888,66 @@ p {
 .cardMenuCircle {
   width: 20px;
   height: 20px;
-  background-color: transparent;
-  border: 2px solid #AAAAAA;
+  background-color: #fe4545;
   border-radius: 50%;
   position: relative;
   transition: all ease 0.5s;
 }
 
 .fa-heart {
-  display: none;
   color: #AAAAAA;
   font-size: 1.5rem;
   padding-left: 2px;
   margin-top: 15px;
 }
 
-.menuContainerHover {
-  height: 200px;
+.fa-heart:hover {
+  color: #fe4545;
 }
 
-.menuContainerHover .cardMenuCircle {
-  background-color: #fe4545;
-  border: 2px solid #fe4545;
+.fa-shuffle {
+  color: #AAAAAA;
+  font-size: 1.5rem;
+  padding-left: 2px;
+  margin-top: 15px;
 }
 
-.menuContainerHover .fa-heart {
-  display: block;
+.fa-shuffle:hover {
+  color: #20d3c2;
+}
+
+.fa-magnifying-glass {
+  color: #AAAAAA;
+  font-size: 1.5rem;
+  padding-left: 2px;
+  margin-top: 15px;
+}
+
+.fa-magnifying-glass:hover {
+  color: #20d3c2;
+}
+
+.fa-cart-shopping {
+  color: #AAAAAA;
+  font-size: 1.5rem;
+  padding-left: 2px;
+  margin-top: 15px;
+}
+
+.fa-cart-shopping:hover {
+  color: #20d3c2;
+}
+
+.displayNone {
+  opacity: 0;
+}
+
+.displayBlock {
+  opacity: 1;
+}
+
+.displayBlock .menuCardContainer {
+  opacity: 1;
+  right: 15px;
+  top: 15px;
 }

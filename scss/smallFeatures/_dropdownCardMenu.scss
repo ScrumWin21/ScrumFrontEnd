@@ -1,14 +1,15 @@
-.menuContainer {
-    height: 46px;
+.menuCardContainer {
+    height: 200px;
     width: 46px;
     color: $White;
     border-radius: 25px;
     background-color: $White;
     position: absolute;
-    right: 15px;
+    right: -10px;
     top: 15px;
     z-index: 5;
     transition: all ease 0.5s;
+    opacity: 0;
 } 
 
 .menuContainerInside {
@@ -20,31 +21,63 @@
 .cardMenuCircle {
     width: 20px;
     height: 20px;
-    background-color: transparent;
-    border: 2px solid #AAAAAA;
+    background-color: $Hot;
     border-radius: 50%;
     position: relative;
     transition: all ease 0.5s;
 }
 
 .fa-heart {
-    display: none;
     color: #AAAAAA;
     font-size: 1.5rem;
     padding-left: 2px;
     margin-top: 15px;
+    &:hover {
+        color: $Hot;
+    }
 }
 
+.fa-shuffle {
+    color: #AAAAAA;
+    font-size: 1.5rem;
+    padding-left: 2px;
+    margin-top: 15px;
+    &:hover {
+        color: $ThemeColorTeal;
+    }
+}
 
-.menuContainerHover {
-    height: 200px;
+.fa-magnifying-glass {
+    color: #AAAAAA;
+    font-size: 1.5rem;
+    padding-left: 2px;
+    margin-top: 15px;
+    &:hover {
+        color: $ThemeColorTeal;
+    }
+}
 
-    .cardMenuCircle {
-        background-color: $Hot;
-        border: 2px solid $Hot;
+.fa-cart-shopping {
+    color: #AAAAAA;
+    font-size: 1.5rem;
+    padding-left: 2px;
+    margin-top: 15px;
+    &:hover {
+        color: $ThemeColorTeal;
+    }
+}
+
+.displayNone {
+    opacity: 0;
+}
+
+.displayBlock {
+    opacity: 1;
+   
+    .menuCardContainer {
+        opacity: 1;
+        right: 15px;
+        top: 15px;
     }
 
-    .fa-heart {
-        display: block;
-    }
 }

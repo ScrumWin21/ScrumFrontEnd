@@ -1,29 +1,19 @@
-import React, { useState } from "react";
+import React from "react";
 
 export const DropDownCardMenu = () => {
+  // const [isHovering, setIsHovering] = useState(false);
 
-    // const [isHovering, setIsHovering] = useState(false);
-    const [isHovering, setIsHovering] = useState(false);
-
-  function handleMouseEnter() {
-    setIsHovering(false);
-    console.log("hovering");
-  }
-
-  function handleMouseLeave() {
-    setIsHovering(true);
-    console.log("not hover");
-  }
-    return <>
-        <div className={`menuContainer ${
-                    isHovering ? "" : "menuContainerHover"
-                  }`}
-        onMouseEnter={handleMouseEnter}
-            onMouseLeave={handleMouseLeave}
-        >
-            <div className="menuContainerInside">
-                <div className="cardMenuCircle"></div>
-                <i class="fa-regular fa-heart"></i>
-                </div>
-        </div></>;
+  return (
+    <>
+      <div className="menuCardContainer">
+        <div className="menuContainerInside">
+          <div className="cardMenuCircle"></div>
+          <i class="fa-light fa-heart"></i>
+          <i class="fa-light fa-shuffle"></i>
+          <i class="fa-light fa-magnifying-glass"></i>
+          <i class="fa-light fa-cart-shopping"></i>
+        </div>
+      </div>
+    </>
+  );
 };
