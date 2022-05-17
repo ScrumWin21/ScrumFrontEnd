@@ -1,18 +1,29 @@
+//PACKAGES
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+//SCSS
 import "./App.scss";
 
 //SHARED
-import Navbar from "./pages/shared/navbar";
+import Navbar from "./views/shared/navbar";
 
 //PAGES
-import Home from "./pages/home";
+import Home from "./views/home";
 
 
 function App() {
   return (
     <>
+      <BrowserRouter>
+        <Navbar />
+        
+        <Routes>
 
-      <Navbar />
-      <Home />
+          <Route path="/" element={<Home />} />
+          <Route path="/login" element={"< />"} />
+
+        </Routes>
+      </BrowserRouter>
 
     </>
   );
