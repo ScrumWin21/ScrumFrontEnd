@@ -4,9 +4,10 @@ import { DisplayNew } from "../shared/smallFeatures/DisplayNew";
 import { BackArrow } from "../shared/smallFeatures/BackArrow";
 import { ForwardArrow } from "../shared/smallFeatures/ForwardArrow";
 import { CarouselCircles } from "../shared/smallFeatures/CarouselCircles";
+import { DropDownCardMenu } from "../shared/smallFeatures/DropdownCardMenu";
 
 export const HomeShowcaseFour = () => {
-  const [isHovering, setIsHovering] = useState(true);
+  const [isHovering, setIsHovering] = useState(false);
 
   function handleMouseEnter() {
     setIsHovering(false);
@@ -41,6 +42,7 @@ export const HomeShowcaseFour = () => {
                 onMouseLeave={handleMouseLeave}
               >
                 <DisplayNew />
+                <DropDownCardMenu />
                 <div
                   className={`showcaseFour-card-bottom ${
                     isHovering ? "" : "display-information"

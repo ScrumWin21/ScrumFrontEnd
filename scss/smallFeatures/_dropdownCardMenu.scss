@@ -1,0 +1,50 @@
+.menuContainer {
+    height: 46px;
+    width: 46px;
+    color: $White;
+    border-radius: 25px;
+    background-color: $White;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    z-index: 5;
+    transition: all ease 0.5s;
+} 
+
+.menuContainerInside {
+    display: flex;
+    padding-top: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+.cardMenuCircle {
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border: 2px solid #AAAAAA;
+    border-radius: 50%;
+    position: relative;
+    transition: all ease 0.5s;
+}
+
+.fa-heart {
+    display: none;
+    color: #AAAAAA;
+    font-size: 1.5rem;
+    padding-left: 2px;
+    margin-top: 15px;
+}
+
+
+.menuContainerHover {
+    height: 200px;
+
+    .cardMenuCircle {
+        background-color: $Hot;
+        border: 2px solid $Hot;
+    }
+
+    .fa-heart {
+        display: block;
+    }
+}
