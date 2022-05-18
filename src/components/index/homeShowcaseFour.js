@@ -19,8 +19,6 @@ export const HomeShowcaseFour = () => {
     console.log("not hover");
   }
 
-
-
   return (
     <>
       <div id="home-showcase-four">
@@ -44,13 +42,12 @@ export const HomeShowcaseFour = () => {
                 onMouseLeave={handleMouseLeave}
               >
                 <DisplayNew />
-                <div className={`displayNone ${
-                    isHovering ? "" : "displayBlock"
-                  }`}>
-                <DropDownCardMenu/>
-
+                <div
+                  className={`displayNone ${isHovering ? "" : "displayBlock"}`}
+                >
+                  <DropDownCardMenu />
                 </div>
-               
+
                 <div
                   className={`showcaseFour-card-bottom ${
                     isHovering ? "" : "display-information"
@@ -82,11 +79,9 @@ export const HomeShowcaseFour = () => {
         </div>
       </div>
       <div className="ContainerRegular flex carousel-counter margin-lr-auto">
-        
-       
         <CarouselCircles />
         <CarouselCircles />
-        <CarouselCircles /> 
+        <CarouselCircles />
       </div>
     </>
   );
