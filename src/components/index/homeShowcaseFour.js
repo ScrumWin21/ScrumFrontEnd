@@ -41,6 +41,7 @@ export const HomeShowcaseFour = () => {
                 onMouseEnter={handleMouseEnter}
                 onMouseLeave={handleMouseLeave}
               >
+                
                 <DisplayNew />
                 <div
                   className={`displayNone ${isHovering ? "" : "displayBlock"}`}
