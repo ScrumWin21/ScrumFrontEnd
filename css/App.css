@@ -78,12 +78,12 @@ button {
 }
 
 span:hover {
-  border-bottom: 2px solid #20D3C2;
+  border-bottom: 2px solid #20d3c2;
   margin-bottom: 1rem;
 }
 
 #btn-browseCategories {
-  background-color: #20D3C2;
+  background-color: #20d3c2;
   color: white;
   height: 50px;
   width: 255px;
@@ -92,7 +92,7 @@ span:hover {
 }
 
 #btn-specialOffer {
-  background-color: #20D3C2;
+  background-color: #20d3c2;
   color: white;
   margin-left: 3rem;
   height: 38px;
@@ -106,7 +106,7 @@ span:hover {
 .fa-angle-down {
   margin-left: 0.2rem;
   font-size: 0.9rem;
-  color: #20D3C2;
+  color: #20d3c2;
 }
 
 .fa-angle-down-white {
@@ -404,6 +404,7 @@ p {
   background-color: #eeeeee;
   position: relative;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 .newArrivals-cards {
@@ -415,20 +416,103 @@ p {
   align-items: center;
 }
 
-#showcaseFour-card-bottom {
+.showcaseFour-card-bottom {
   width: 100%;
   height: 50px;
   background-color: #0e153d;
   position: absolute;
   bottom: 0;
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
 }
 
-#showcaseFour-card-bottom p {
-  color: white;
+.showcaseFour-card-bottom .showcaseFour-card-header {
+  color: #ffffff;
   float: left;
   padding-left: 25px;
   margin-top: 0;
   padding-top: 15px;
+  transition: all ease-in-out 0.2s;
+}
+
+.showcaseFour-card-hover-information-container {
+  position: absolute;
+  height: 40%;
+  bottom: 0;
+  margin-bottom: 30px;
+  padding-left: 25px;
+}
+
+.showcaseFour-card-description {
+  display: none;
+  transition: all ease-in-out 1.2s;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 15px;
+  width: 100%;
+  text-align: left;
+}
+
+.showcaseFour-card-small-box {
+  transition: all ease-in-out 1.2s;
+  display: flex;
+  justify-content: center;
+  width: 70px;
+  height: 25px;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  display: none;
+  margin-bottom: 15px;
+}
+
+.showcaseFour-card-small-box .showcaseFour-category {
+  text-align: center;
+  padding-top: 3px;
+}
+
+.showcaseFour-card-orginal-price {
+  text-decoration: line-through;
+  color: #ffffff;
+  display: none;
+  margin-bottom: 15px;
+  text-align: left;
+  transition: all ease-in-out 1.2s;
+}
+
+.showcaseFour-card-sale-price {
+  color: #20d3c2;
+  font-size: 1.5rem;
+  margin: 0;
+  display: none;
+}
+
+.display-information {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(14, 21, 61, 0.8);
+  border-radius: 8px;
+  z-index: 2;
+}
+
+.display-information .showcaseFour-card-header {
+  display: none;
+}
+
+.display-information .showcaseFour-card-description {
+  display: block;
+}
+
+.display-information .showcaseFour-card-small-box {
+  display: block;
+}
+
+.display-information .showcaseFour-card-orginal-price {
+  display: block;
+}
+
+.display-information .showcaseFour-card-sale-price {
+  display: block;
 }
 
 .carousel-counter {
@@ -878,4 +962,92 @@ p {
   height: 12px;
   background-color: #707070;
   border-radius: 50%;
+}
+
+.menuCardContainer {
+  height: 200px;
+  width: 46px;
+  color: #ffffff;
+  border-radius: 25px;
+  background-color: #ffffff;
+  position: absolute;
+  right: -10px;
+  top: 15px;
+  z-index: 5;
+  transition: all ease 0.5s;
+  opacity: 0;
+}
+
+.menuContainerInside {
+  display: flex;
+  padding-top: 10px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardMenuCircle {
+  width: 20px;
+  height: 20px;
+  background-color: #fe4545;
+  border-radius: 50%;
+  position: relative;
+  transition: all ease 0.5s;
+}
+
+.fa-heart {
+  color: #aaaaaa;
+  font-size: 1.5rem;
+  padding-left: 2px;
+  margin-top: 15px;
+}
+
+.fa-heart:hover {
+  color: #20d3c2;
+}
+
+.fa-shuffle {
+  color: #aaaaaa;
+  font-size: 1.5rem;
+  padding-left: 2px;
+  margin-top: 15px;
+}
+
+.fa-shuffle:hover {
+  color: #20d3c2;
+}
+
+.fa-magnifying-glass {
+  color: #aaaaaa;
+  font-size: 1.5rem;
+  padding-left: 2px;
+  margin-top: 15px;
+}
+
+.fa-magnifying-glass:hover {
+  color: #20d3c2;
+}
+
+.fa-cart-shopping {
+  color: #aaaaaa;
+  font-size: 1.5rem;
+  padding-left: 2px;
+  margin-top: 15px;
+}
+
+.fa-cart-shopping:hover {
+  color: #20d3c2;
+}
+
+.displayNone {
+  opacity: 0;
+}
+
+.displayBlock {
+  opacity: 1;
+}
+
+.displayBlock .menuCardContainer {
+  opacity: 1;
+  right: 15px;
+  top: 15px;
 }
