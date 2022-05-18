@@ -1,8 +1,9 @@
 import React from "react";
 
 export const ShopTopBanner = () => {
-    return (
-        <>
-        </>
-    )
-}
+  return (
+    <>
+      <div className="containerWide shopTopBannerContainer">hello world</div>
+    </>
+  );
+};

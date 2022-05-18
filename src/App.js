@@ -9,6 +9,7 @@ import Navbar from "./views/shared/navbar";
 
 //PAGES
 import Home from "./views/home";
+import { ShopPage } from "./views/ShopPage";
 
 
 function App() {
@@ -16,12 +17,12 @@ function App() {
     <>
       <BrowserRouter>
         <Navbar />
-        
         <Routes>
 
           <Route path="/" element={<Home />} />
           <Route path="/login" element={"< />"} />
-
+          <Route path="/ShopPage" element={<ShopPage />} />
+          
         </Routes>
       </BrowserRouter>
 
