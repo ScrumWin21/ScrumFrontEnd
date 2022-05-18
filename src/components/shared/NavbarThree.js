@@ -7,34 +7,34 @@ export const NavbarThree = () => {
     <>
       <div className="bgNavThree">
         <div className="navbarThree ContainerRegular">
-            <button id="btn-browseCategories">
-              <i className="fa-solid fa-bars"></i>Browse Categories
-              <i className="fa-solid fa-angle-down fa-angle-down-white"></i>
-            </button>
-          <NavLink to="/">  
-          <span>
+          <button id="btn-browseCategories">
+            <i className="fa-solid fa-bars"></i>Browse Categories
+            <i className="fa-solid fa-angle-down fa-angle-down-white"></i>
+          </button>
+          <NavLink to="/">
+            <span>
               Home<i className="fa-solid fa-angle-down"></i>
             </span>
-            </NavLink>
+          </NavLink>
           <NavLink to="/Shop">
             <span>
               Shop<i className="fa-solid fa-angle-down"></i>
             </span>
-            </NavLink>
-            <span>
-              Products<i className="fa-solid fa-angle-down"></i>
-            </span>
-            <span>
-              Categories<i className="fa-solid fa-angle-down"></i>
-            </span>
-            <span>
-              Pages<i className="fa-solid fa-angle-down"></i>
-            </span>
-            <span>
-              Blog<i className="fa-solid fa-angle-down"></i>
-            </span>
-            <button id="btn-specialOffer">SPECIAL OFFER</button>
-          </div>
+          </NavLink>
+          <span>
+            Products<i className="fa-solid fa-angle-down"></i>
+          </span>
+          <span>
+            Categories<i className="fa-solid fa-angle-down"></i>
+          </span>
+          <span>
+            Pages<i className="fa-solid fa-angle-down"></i>
+          </span>
+          <span>
+            Blog<i className="fa-solid fa-angle-down"></i>
+          </span>
+          <button id="btn-specialOffer">SPECIAL OFFER</button>
+        </div>
       </div>
     </>
   );

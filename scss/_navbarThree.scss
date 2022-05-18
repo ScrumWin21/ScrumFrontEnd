@@ -13,9 +13,16 @@
   cursor: pointer;
 }
 
+a {
+  text-decoration: none;
+  font-family: $FontMain;
+  color: $ThemeColorDarkBlue;
+}
+
 span,
 button {
   margin-right: 1.2rem;
+  
 }
 
 span:hover {
