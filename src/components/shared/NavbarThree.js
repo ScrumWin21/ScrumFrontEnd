@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter, NavLink, Routes } from "react-router-dom";
 // import "./navbarThree.scss";
 
 export const NavbarThree = () => {
@@ -10,12 +11,16 @@ export const NavbarThree = () => {
               <i className="fa-solid fa-bars"></i>Browse Categories
               <i className="fa-solid fa-angle-down fa-angle-down-white"></i>
             </button>
-            <span>
+          <NavLink to="/">  
+          <span>
               Home<i className="fa-solid fa-angle-down"></i>
             </span>
+            </NavLink>
+          <NavLink to="/Shop">
             <span>
               Shop<i className="fa-solid fa-angle-down"></i>
             </span>
+            </NavLink>
             <span>
               Products<i className="fa-solid fa-angle-down"></i>
             </span>
