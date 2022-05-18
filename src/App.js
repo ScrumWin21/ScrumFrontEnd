@@ -1,30 +1,30 @@
-import "./App.scss";
-import { HomeShowcaseTwo } from "./components/index/homeShowcaseTwo";
-import { HomeShowcaseOne } from "./components/index/homeShowcaseOne";
-import NavbarOne from "./components/shared/NavbarOne";
-import { NavbarThree } from "./components/shared/NavbarThree";
-import { HomeShowcaseThree } from "./components/index/homeShowcaseThree";
-import { HomeShowcaseFour } from "./components/index/homeShowcaseFour";
-import HomeShowcaseFive from "./components/index/homeShowcaseFive";
-import HomeShowcaseSeven from "./components/index/homeShowcaseSeven";
+//PACKAGES
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import HomeShowcaseEleven from "./components/index/homeShowcaseEleven";
-import HomeShowcaseTwelve from "./components/index/homeShowcaseTwelve";
+//SCSS
+import "./App.scss";
+
+//SHARED
+import Navbar from "./views/shared/navbar";
+
+//PAGES
+import Home from "./views/home";
+
 
 function App() {
   return (
     <>
-      <NavbarOne />
-      <NavbarThree />
-      <HomeShowcaseOne />
-      <HomeShowcaseTwo />
-      <HomeShowcaseThree />
-      <HomeShowcaseFour />
-      <HomeShowcaseFive />
-      <HomeShowcaseSeven />
+      <BrowserRouter>
+        <Navbar />
+        
+        <Routes>
 
-      <HomeShowcaseEleven />
-      <HomeShowcaseTwelve />
+          <Route path="/" element={<Home />} />
+          <Route path="/login" element={"< />"} />
+
+        </Routes>
+      </BrowserRouter>
+
     </>
   );
 }

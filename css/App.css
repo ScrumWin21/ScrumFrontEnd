@@ -699,6 +699,106 @@ p {
   margin-top: -0.4rem;
 }
 
+.bg-S8 {
+  height: 1085px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.bg-S8 .ContainerRegular .S8Headers {
+  text-align: center;
+}
+
+.bg-S8 .ContainerRegular .S8Headers .S8Header {
+  margin-bottom: 1.5rem;
+}
+
+.bg-S8 .ContainerRegular .S8Headers .S8Header span {
+  margin-right: 0.55rem;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.bg-S8 .ContainerRegular .S8Headers p {
+  font-size: 16px;
+  color: #0e153d;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.bg-S8 .ContainerRegular .S8Headers #S8Top {
+  color: #0e153d;
+}
+
+.bg-S8 .ContainerRegular .S8Headers #S8Sellers {
+  color: #20d3c2;
+}
+
+.bg-S8 .ContainerRegular .S8Content {
+  display: flex;
+}
+
+.bg-S8 .ContainerRegular .S8Content .S8ContentFooters {
+  background-color: #0e153d;
+  width: 100%;
+  height: 52px;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  padding-left: 1.5rem;
+}
+
+.bg-S8 .ContainerRegular .S8Content .S8ContentFooters p {
+  color: #ffffff;
+}
+
+.bg-S8 .ContainerRegular .S8Content .S8LeftContent {
+  height: 700px;
+  margin-right: 10px;
+  overflow: hidden;
+  background-color: #f6f6f6;
+  border-radius: 10px;
+  position: relative;
+}
+
+.bg-S8 .ContainerRegular .S8Content .S8LeftContent #beximlogo {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+.bg-S8 .ContainerRegular .S8Content .S8RightContent .S8RightTopContent {
+  height: 345px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  background-color: #f6f6f6;
+  border-radius: 10px;
+  position: relative;
+}
+
+.bg-S8 .ContainerRegular .S8Content .S8RightContent .S8RightTopContent #lightonlogo {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+.bg-S8 .ContainerRegular .S8Content .S8RightContent .S8RightBottomContent {
+  height: 345px;
+  overflow: hidden;
+  background-color: #f6f6f6;
+  border-radius: 10px;
+  position: relative;
+}
+
+.bg-S8 .ContainerRegular .S8Content .S8RightContent .S8RightBottomContent #rosimologo {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
 .bg-S11 {
   height: 315px;
   display: flex;
