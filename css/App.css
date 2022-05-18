@@ -1062,6 +1062,67 @@ p {
 .shopTopBannerContainer {
   width: 100%;
   height: 400px;
-  background-color: #0e153d;
-  border: 1px solid black;
+  background-color: rgba(14, 21, 61, 0.8);
+  display: flex;
+  align-items: center;
+}
+
+.shopTopBanner {
+  justify-content: space-between;
+  height: 100%;
+}
+
+.shopTopBannerLeft {
+  width: 50%;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.25rem;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.shopTopBannerLeft h4 {
+  color: white;
+  margin-bottom: 12px;
+}
+
+.shopTopBannerLeft .shopTopBannerLeftText {
+  display: flex;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.shopTopBannerLeft .shopTopBannerLeftText h2 {
+  color: #ffffff;
+  font-size: 2.25rem;
+  height: auto;
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+
+.shopTopBannerLeft .shopTopBannerLeftText h3 {
+  color: #20d3c2;
+  font-size: 2.25rem;
+}
+
+.shopTopBannerRight {
+  border: 1px solid white;
+  width: 50%;
+}
+
+.shopTopBannerButton {
+  width: 175px;
+  height: 55px;
+  color: #ffffff;
+  border: none;
+  border-radius: 50px;
+  color: #20d3c2;
+  font-size: 1.125rem;
+  font-weight: 600;
+  transition: all ease 0.2s;
+  cursor: pointer;
+}
+
+.shopTopBannerButton:hover {
+  background-color: #20d3c2;
+  color: #ffffff;
 }
