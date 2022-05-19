@@ -1,0 +1,112 @@
+.shopTopBannerContainer {
+  width: 100%;
+  height: 400px;
+  background-color: rgba($ThemeColorDarkBlue, $alpha: 0.8);
+  display: flex;
+  align-items: center;
+}
+
+.shopTopBanner {
+  justify-content: space-between;
+  height: 100%;
+}
+
+.shopTopBannerLeft {
+  width: 50%;
+  font-family: $FontMain;
+  font-size: 2.25rem;
+  margin-top: auto;
+  margin-bottom: auto;
+
+  h4 {
+    color: white;
+    margin-bottom: 12px;
+  }
+
+  .shopTopBannerLeftText {
+    display: flex;
+    height: auto;
+    margin-bottom: 20px;
+
+    h2 {
+      color: $White;
+      font-size: 2.25rem;
+      height: auto;
+      margin-bottom: 0;
+      margin-right: 10px;
+      font-weight: 500;
+    }
+    h3 {
+      color: $ThemeColorTeal;
+      font-size: 2.25rem;
+      font-weight: 500;
+    }
+  }
+}
+
+.shopTopBannerRight {
+  width: 50%;
+  position: relative;
+  top: 20px;
+}
+
+.shopTopBannerButton {
+  width: 175px;
+  height: 55px;
+  color: $White;
+  border: none;
+  border-radius: 50px;
+  color: $ThemeColorTeal;
+  font-size: 1.125rem;
+  font-weight: 600;
+  transition: all ease 0.2s;
+  cursor: pointer;
+  &:hover {
+    background-color: $ThemeColorTeal;
+    color: $White;
+  }
+}
+
+.topShopBannerRight-shoeOne {
+    position: absolute;
+    top: 70px;
+    left: 0px;
+}
+
+.topShopBannerRight-shoeTwo {
+    position: absolute;
+    bottom: 100px;
+    right: 0px;
+}
+
+.shopTopBannerRight-newDisplay {
+    position: absolute;
+    left: 90px;
+    top: 40px;
+    width: 92px;
+    height: 92px;
+    background-color: $ThemeColorTeal;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    font-family: $FontMain;
+    color: $White;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.shopTopBannerRight-Sale {
+    position: absolute;
+    bottom: 230px;
+    right: 80px;
+    width: 92px;
+    height: 92px;
+    background-color: $Sale;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    font-family: $FontMain;
+    color: $White;
+    align-items: center;
+    font-size: 1.5rem;
+}

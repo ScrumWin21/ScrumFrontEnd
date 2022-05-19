@@ -16,7 +16,7 @@ export const NavbarThree = () => {
               Home<i className="fa-solid fa-angle-down"></i>
             </span>
           </NavLink>
-          <NavLink to="/Shop">
+          <NavLink to="/ShopPage">
             <span>
               Shop<i className="fa-solid fa-angle-down"></i>
             </span>

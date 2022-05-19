@@ -70,6 +70,13 @@ body .bg-blue .g-split a:hover {
   margin-left: auto;
   margin-right: auto;
   font-family: "Roboto", sans-serif;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  color: #0e153d;
 }
 
 span,
@@ -897,6 +904,7 @@ p {
   border-radius: 50%;
   margin-left: 15px;
   margin-top: 15px;
+  font-family: "Roboto", sans-serif;
 }
 
 #back-arrow {
@@ -1050,4 +1058,119 @@ p {
   opacity: 1;
   right: 15px;
   top: 15px;
+}
+
+.shopTopBannerContainer {
+  width: 100%;
+  height: 400px;
+  background-color: rgba(14, 21, 61, 0.8);
+  display: flex;
+  align-items: center;
+}
+
+.shopTopBanner {
+  justify-content: space-between;
+  height: 100%;
+}
+
+.shopTopBannerLeft {
+  width: 50%;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.25rem;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.shopTopBannerLeft h4 {
+  color: white;
+  margin-bottom: 12px;
+}
+
+.shopTopBannerLeft .shopTopBannerLeftText {
+  display: flex;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.shopTopBannerLeft .shopTopBannerLeftText h2 {
+  color: #ffffff;
+  font-size: 2.25rem;
+  height: auto;
+  margin-bottom: 0;
+  margin-right: 10px;
+  font-weight: 500;
+}
+
+.shopTopBannerLeft .shopTopBannerLeftText h3 {
+  color: #20d3c2;
+  font-size: 2.25rem;
+  font-weight: 500;
+}
+
+.shopTopBannerRight {
+  width: 50%;
+  position: relative;
+  top: 20px;
+}
+
+.shopTopBannerButton {
+  width: 175px;
+  height: 55px;
+  color: #ffffff;
+  border: none;
+  border-radius: 50px;
+  color: #20d3c2;
+  font-size: 1.125rem;
+  font-weight: 600;
+  transition: all ease 0.2s;
+  cursor: pointer;
+}
+
+.shopTopBannerButton:hover {
+  background-color: #20d3c2;
+  color: #ffffff;
+}
+
+.topShopBannerRight-shoeOne {
+  position: absolute;
+  top: 70px;
+  left: 0px;
+}
+
+.topShopBannerRight-shoeTwo {
+  position: absolute;
+  bottom: 100px;
+  right: 0px;
+}
+
+.shopTopBannerRight-newDisplay {
+  position: absolute;
+  left: 90px;
+  top: 40px;
+  width: 92px;
+  height: 92px;
+  background-color: #20d3c2;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.shopTopBannerRight-Sale {
+  position: absolute;
+  bottom: 230px;
+  right: 80px;
+  width: 92px;
+  height: 92px;
+  background-color: #64cb83;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  align-items: center;
+  font-size: 1.5rem;
 }
