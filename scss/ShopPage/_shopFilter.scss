@@ -1,0 +1,107 @@
+.shopPageFilterBackground {
+  margin-top: 120px;
+  width: 100%;
+  height: 140px;
+  background-color: $LightGreyBackground;
+  display: flex;
+  font-family: $FontMain;
+}
+
+.shopPageFilter-left {
+  width: 25%;
+  margin-top: 45px;
+  h2 {
+    font-size: 1.5rem;
+    color: $ThemeColorTeal;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 5px;
+  }
+
+  span {
+    margin-right: 0;
+    cursor: pointer;
+    &:hover {
+      border-bottom: none;
+    }
+  }
+  .shopPageFiler-left-shop-little {
+    color: #aaaaaa;
+    margin-left: 0;
+  }
+}
+
+.shopPageFilter-right {
+  width: 680px;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.shopPageFilter-filterboxOne {
+  width: 212px;
+  height: 60px;
+  border-radius: 6px;
+  background-color: $ThemeColorDarkBlue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  p {
+    color: white;
+  }
+
+  h8 {
+    font-family: $FontMain;
+    font-size: $FontSizeRegular;
+    color: $ThemeColorTeal;
+    line-height: normal;
+    margin-right: 6px;
+    margin-left: 3px;
+    padding-bottom: 1px;
+  }
+}
+
+.shopPageFilter-filterboxTwo {
+  width: 175px;
+  height: 60px;
+  border-radius: 6px;
+  background-color: $ThemeColorDarkBlue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  .shopPageFilter-filterboxTwo-inside {
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+  }
+}
+
+.shopPageFilter-filterboxThree {
+  width: 233px;
+  height: 60px;
+  border-radius: 6px;
+  background-color: $ThemeColorDarkBlue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  .shopPageFilter-filterboxThree-inside {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    align-items: center;
+    p {
+      color: white;
+      font-size: $FontMain;
+    }
+
+    i {
+      color: $ThemeColorTeal;
+    }
+  }
+}
