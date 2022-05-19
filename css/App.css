@@ -904,6 +904,7 @@ p {
   border-radius: 50%;
   margin-left: 15px;
   margin-top: 15px;
+  font-family: "Roboto", sans-serif;
 }
 
 #back-arrow {
@@ -1097,16 +1098,19 @@ p {
   height: auto;
   margin-bottom: 0;
   margin-right: 10px;
+  font-weight: 500;
 }
 
 .shopTopBannerLeft .shopTopBannerLeftText h3 {
   color: #20d3c2;
   font-size: 2.25rem;
+  font-weight: 500;
 }
 
 .shopTopBannerRight {
-  border: 1px solid white;
   width: 50%;
+  position: relative;
+  top: 20px;
 }
 
 .shopTopBannerButton {
@@ -1125,4 +1129,48 @@ p {
 .shopTopBannerButton:hover {
   background-color: #20d3c2;
   color: #ffffff;
+}
+
+.topShopBannerRight-shoeOne {
+  position: absolute;
+  top: 70px;
+  left: 0px;
+}
+
+.topShopBannerRight-shoeTwo {
+  position: absolute;
+  bottom: 100px;
+  right: 0px;
+}
+
+.shopTopBannerRight-newDisplay {
+  position: absolute;
+  left: 90px;
+  top: 40px;
+  width: 92px;
+  height: 92px;
+  background-color: #20d3c2;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.shopTopBannerRight-Sale {
+  position: absolute;
+  bottom: 230px;
+  right: 80px;
+  width: 92px;
+  height: 92px;
+  background-color: #64cb83;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  align-items: center;
+  font-size: 1.5rem;
 }

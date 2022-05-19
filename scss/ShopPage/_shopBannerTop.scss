@@ -34,17 +34,20 @@
       height: auto;
       margin-bottom: 0;
       margin-right: 10px;
+      font-weight: 500;
     }
     h3 {
       color: $ThemeColorTeal;
       font-size: 2.25rem;
+      font-weight: 500;
     }
   }
 }
 
 .shopTopBannerRight {
-  border: 1px solid white;
   width: 50%;
+  position: relative;
+  top: 20px;
 }
 
 .shopTopBannerButton {
@@ -62,4 +65,48 @@
     background-color: $ThemeColorTeal;
     color: $White;
   }
+}
+
+.topShopBannerRight-shoeOne {
+    position: absolute;
+    top: 70px;
+    left: 0px;
+}
+
+.topShopBannerRight-shoeTwo {
+    position: absolute;
+    bottom: 100px;
+    right: 0px;
+}
+
+.shopTopBannerRight-newDisplay {
+    position: absolute;
+    left: 90px;
+    top: 40px;
+    width: 92px;
+    height: 92px;
+    background-color: $ThemeColorTeal;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    font-family: $FontMain;
+    color: $White;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.shopTopBannerRight-Sale {
+    position: absolute;
+    bottom: 230px;
+    right: 80px;
+    width: 92px;
+    height: 92px;
+    background-color: $Sale;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    font-family: $FontMain;
+    color: $White;
+    align-items: center;
+    font-size: 1.5rem;
 }

@@ -1,5 +1,11 @@
 import React from "react";
 
+// pictures
+// import line from "../../images/homeImages/sqiggleLine.svg"
+import frontShoe from "../../../images/shopImages/FrontSideShoe.svg";
+import sideShoe from "../../../images/shopImages/SideShoe.svg";
+import { DisplayNew } from "../../shared/smallFeatures/DisplayNew";
+
 export const ShopTopBanner = () => {
   return (
     <>
@@ -13,7 +19,12 @@ export const ShopTopBanner = () => {
             </div>
             <button className="shopTopBannerButton">LEARN MORE</button>
           </div>
-          <div className="shopTopBannerRight">Right</div>
+                  <div className="shopTopBannerRight">
+                    <img src={sideShoe} className="topShopBannerRight-shoeOne"></img>
+                      <img src={frontShoe} className="topShopBannerRight-shoeTwo"></img>
+                      <div className="shopTopBannerRight-newDisplay">NEW</div>
+                      <div className="shopTopBannerRight-Sale">-20%</div>
+          </div>
         </div>
       </div>
     </>
