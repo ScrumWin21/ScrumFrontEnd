@@ -4,4 +4,29 @@
     height: 140px;
     background-color: $LightGreyBackground;
     display: flex;
+    font-family: $FontMain;
+}
+
+.shopPageFilter-left {
+    width: 25%;
+    margin-top: 45px;
+    h2 {
+        font-size: 1.5rem;
+        color: $ThemeColorTeal;
+        font-weight: 500;
+        margin: 0;
+        margin-bottom: 5px;
+    }
+
+    span {
+        margin-right: 0;
+        cursor: pointer;
+        &:hover {
+            border-bottom: none;
+        }
+    }
+    .shopPageFiler-left-shop-little {
+        color: #AAAAAA;
+        margin-left: 0;
+    }
 }

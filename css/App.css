@@ -1181,4 +1181,32 @@ p {
   height: 140px;
   background-color: #f6f6f6;
   display: flex;
+  font-family: "Roboto", sans-serif;
+}
+
+.shopPageFilter-left {
+  width: 25%;
+  margin-top: 45px;
+}
+
+.shopPageFilter-left h2 {
+  font-size: 1.5rem;
+  color: #20d3c2;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.shopPageFilter-left span {
+  margin-right: 0;
+  cursor: pointer;
+}
+
+.shopPageFilter-left span:hover {
+  border-bottom: none;
+}
+
+.shopPageFilter-left .shopPageFiler-left-shop-little {
+  color: #AAAAAA;
+  margin-left: 0;
 }
