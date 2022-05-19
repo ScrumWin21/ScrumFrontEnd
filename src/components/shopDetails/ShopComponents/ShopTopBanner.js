@@ -4,7 +4,6 @@ import React from "react";
 // import line from "../../images/homeImages/sqiggleLine.svg"
 import frontShoe from "../../../images/shopImages/FrontSideShoe.svg";
 import sideShoe from "../../../images/shopImages/SideShoe.svg";
-import { DisplayNew } from "../../shared/smallFeatures/DisplayNew";
 
 export const ShopTopBanner = () => {
   return (
