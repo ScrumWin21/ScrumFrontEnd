@@ -1,0 +1,34 @@
+.shopBannerLeft-title {
+    font-family: $FontMain;
+    color: $ThemeColorTeal;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.shopBannerLeft-container {
+    width: 255px;
+    height: auto;
+}
+
+.shopBannerLeft-container-content {
+    width: 100%;
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    font-family: $FontMain;
+    cursor: pointer;
+    &:hover {
+        color: $ThemeColorTeal;
+        .shoperBannerLeft-numberBox {
+            background-color: $ThemeColorTeal;
+            color: $White;
+            border: 1px solid $ThemeColorTeal;
+        }
+    }
+}
+
+.shoperBannerLeft-numberBox {
+    border: 1px solid #AAAAAA;
+    border-radius: 5px;
+    padding:2px;
+}
