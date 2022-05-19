@@ -11,6 +11,10 @@
   justify-content: center;
 }
 
+.justify-content-spaceBetween {
+  justify-content: space-between;
+}
+
 .flex {
   display: flex;
 }
@@ -1207,6 +1211,82 @@ p {
 }
 
 .shopPageFilter-left .shopPageFiler-left-shop-little {
-  color: #AAAAAA;
+  color: #aaaaaa;
   margin-left: 0;
+}
+
+.shopPageFilter-right {
+  width: 680px;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.shopPageFilter-filterboxOne {
+  width: 212px;
+  height: 60px;
+  border-radius: 6px;
+  background-color: #0e153d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.shopPageFilter-filterboxOne p {
+  color: white;
+}
+
+.shopPageFilter-filterboxOne h8 {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #20d3c2;
+  line-height: normal;
+  margin-right: 6px;
+  margin-left: 3px;
+  padding-bottom: 1px;
+}
+
+.shopPageFilter-filterboxTwo {
+  width: 175px;
+  height: 60px;
+  border-radius: 6px;
+  background-color: #0e153d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.shopPageFilter-filterboxTwo .shopPageFilter-filterboxTwo-inside {
+  display: flex;
+  justify-content: space-between;
+  width: 120px;
+}
+
+.shopPageFilter-filterboxThree {
+  width: 233px;
+  height: 60px;
+  border-radius: 6px;
+  background-color: #0e153d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.shopPageFilter-filterboxThree .shopPageFilter-filterboxThree-inside {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  align-items: center;
+}
+
+.shopPageFilter-filterboxThree .shopPageFilter-filterboxThree-inside p {
+  color: white;
+  font-size: "Roboto", sans-serif;
+}
+
+.shopPageFilter-filterboxThree .shopPageFilter-filterboxThree-inside i {
+  color: #20d3c2;
 }
