@@ -1290,3 +1290,44 @@ p {
 .shopPageFilter-filterboxThree .shopPageFilter-filterboxThree-inside i {
   color: #20d3c2;
 }
+
+.shopBannerLeft-title {
+  font-family: "Roboto", sans-serif;
+  color: #20d3c2;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+.shopBannerLeft-container {
+  width: 255px;
+  height: auto;
+}
+
+.shopBannerLeft-container-content {
+  width: 100%;
+  display: flex;
+  margin-bottom: 15px;
+  justify-content: space-between;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+}
+
+.shopBannerLeft-container-content:hover {
+  color: #20d3c2;
+}
+
+.shopBannerLeft-container-content:hover .shoperBannerLeft-numberBox {
+  background-color: #20d3c2;
+  color: #ffffff;
+  border: 1px solid #20d3c2;
+}
+
+.shoperBannerLeft-numberBox {
+  border: 1px solid #AAAAAA;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.shopPage-sectionThree-container {
+  margin-top: 40px;
+}
