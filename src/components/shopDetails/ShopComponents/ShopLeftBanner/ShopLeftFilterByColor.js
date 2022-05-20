@@ -7,7 +7,9 @@ export const ShopLeftFilterByColor = () => {
       <div className="shopBannerLeft-container">
         <div className="shopBannerLeft-container-content-color">
           <div className="flex">
-            <div className="shopBannerLeft-colorBox"></div>
+                      <div className="shopBannerLeft-colorBox">
+                      <i class="fa-regular fa-check"></i>
+            </div>
             <div>Black</div>
           </div>
 

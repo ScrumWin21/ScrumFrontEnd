@@ -1301,9 +1301,14 @@ p {
 .shopBannerLeft-container {
   width: 255px;
   height: auto;
+  margin-bottom: 55px;
 }
 
-.shopBannerLeft-container-content {
+.shopBannerLeft-container img {
+  margin-bottom: 15px;
+}
+
+.shopBannerLeft-container-content-hoverAll {
   width: 100%;
   display: flex;
   margin-bottom: 15px;
@@ -1312,20 +1317,56 @@ p {
   cursor: pointer;
 }
 
-.shopBannerLeft-container-content:hover {
+.shopBannerLeft-container-content-hoverAll:hover {
   color: #20d3c2;
 }
 
-.shopBannerLeft-container-content:hover .shoperBannerLeft-numberBox {
+.shopBannerLeft-container-content-hoverAll:hover .shoperBannerLeft-numberBox {
   background-color: #20d3c2;
   color: #ffffff;
   border: 1px solid #20d3c2;
 }
 
-.shoperBannerLeft-numberBox {
+.shopBannerLeft-numberBox {
   border: 1px solid #AAAAAA;
   border-radius: 5px;
   padding: 2px;
+}
+
+.shopFilterButton {
+  width: 72px;
+  height: 24px;
+  border-radius: 20px;
+  border: none;
+  background-color: #20d3c2;
+  color: #ffffff;
+  cursor: pointer;
+  margin-right: 0;
+}
+
+.fa-check {
+  color: white;
+  padding-top: 2px;
+}
+
+.shopBannerLeft-colorBox {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 4px;
+  margin-right: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shopBannerLeft-container-content-color {
+  width: 100%;
+  display: flex;
+  margin-bottom: 15px;
+  justify-content: space-between;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
 }
 
 .shopPage-sectionThree-container {
