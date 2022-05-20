@@ -60,12 +60,13 @@
 .shopBannerLeft-colorBox {
     width: 20px;
     height: 20px;
-    background-color: black;
+    // background-color: black;
     border-radius: 4px;
     margin-right: 14px;
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
     
 }
 
@@ -75,6 +76,5 @@
     margin-bottom: 15px;
     justify-content: space-between;
     font-family: $FontMain;
-    cursor: pointer;
    
 }

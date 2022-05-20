@@ -1353,12 +1353,12 @@ p {
 .shopBannerLeft-colorBox {
   width: 20px;
   height: 20px;
-  background-color: black;
   border-radius: 4px;
   margin-right: 14px;
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .shopBannerLeft-container-content-color {
@@ -1367,7 +1367,6 @@ p {
   margin-bottom: 15px;
   justify-content: space-between;
   font-family: "Roboto", sans-serif;
-  cursor: pointer;
 }
 
 .shopPage-sectionThree-container {
