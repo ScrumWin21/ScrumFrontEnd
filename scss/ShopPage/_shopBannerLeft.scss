@@ -8,6 +8,11 @@
 .shopBannerLeft-container {
     width: 255px;
     height: auto;
+    margin-bottom: 55px;
+
+    img {
+        margin-bottom: 15px;
+    }
 }
 
 .shopBannerLeft-container-content {
@@ -31,4 +36,15 @@
     border: 1px solid #AAAAAA;
     border-radius: 5px;
     padding:2px;
+}
+
+.shopFilterButton {
+    width: 72px;
+    height: 24px;
+    border-radius: 20px;
+    border: none;
+    background-color: $ThemeColorTeal;
+    color: $White;
+    cursor: pointer;
+    margin-right: 0;
 }
