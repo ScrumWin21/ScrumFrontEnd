@@ -38,9 +38,9 @@ export const ShopBannerLeftProductCategories = () => {
       <div className="shopBannerLeft-title">Product Categories</div>
       <div className="shopBannerLeft-container">
         {productCategories.map((productCategories) => (
-          <div className="shopBannerLeft-container-content">
+          <div className="shopBannerLeft-container-content-hoverAll">
             <div>{productCategories.category}</div>
-            <div className="shoperBannerLeft-numberBox">
+            <div className="shopBannerLeft-numberBox">
               {productCategories.count}
             </div>
           </div>

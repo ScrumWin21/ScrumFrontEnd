@@ -1,8 +1,19 @@
 import React from "react";
 
 export const ShopLeftFilterByColor = () => {
-    return (
-        <>
-        </>
-    )
-}
+  return (
+    <>
+      <div className="shopBannerLeft-title">Filter by Color</div>
+      <div className="shopBannerLeft-container">
+        <div className="shopBannerLeft-container-content-color">
+          <div className="flex">
+            <div className="shopBannerLeft-colorBox"></div>
+            <div>Black</div>
+          </div>
+
+          <div className="shopBannerLeft-numberBox">12</div>
+        </div>
+      </div>
+    </>
+  );
+};
