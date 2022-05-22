@@ -15,7 +15,7 @@
     }
 }
 
-.shopBannerLeft-container-content {
+.shopBannerLeft-container-content-hoverAll {
     width: 100%;
     display: flex;
     margin-bottom: 15px;
@@ -32,10 +32,12 @@
     }
 }
 
-.shoperBannerLeft-numberBox {
+.shopBannerLeft-numberBox {
     border: 1px solid #AAAAAA;
     border-radius: 5px;
-    padding:2px;
+    // padding:2px;
+    width: 27px;
+    text-align: center;
 }
 
 .shopFilterButton {
@@ -47,4 +49,37 @@
     color: $White;
     cursor: pointer;
     margin-right: 0;
+}
+
+.fa-check {
+    color: white;
+    padding-top: 2px;
+    // display: none;
+}
+
+.fa-checked {
+    display: none;
+}
+
+
+.shopBannerLeft-colorBox {
+    width: 20px;
+    height: 20px;
+    // background-color: black;
+    border-radius: 4px;
+    margin-right: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+.shopBannerLeft-container-content-color {
+    width: 100%;
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    font-family: $FontMain;
+   
 }
