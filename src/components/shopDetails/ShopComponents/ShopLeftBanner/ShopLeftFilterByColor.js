@@ -1,4 +1,5 @@
 import React from "react";
+import { ColorBox } from "./ShopFilterByColorColorBox";
 
 let shopColor = [
   {
@@ -33,7 +34,6 @@ let shopColor = [
   },
 ];
 
-
 export const ShopLeftFilterByColor = () => {
   return (
     <>
@@ -42,12 +42,8 @@ export const ShopLeftFilterByColor = () => {
         {shopColor.map((shopColor) => (
           <div className="shopBannerLeft-container-content-color">
             <div className="flex">
-              <div
-                className="shopBannerLeft-colorBox"
-                style={{ backgroundColor: shopColor.color }}
-              >
-                <i class="fa-regular fa-check"></i>
-              </div>
+              <ColorBox data={{ shopColor }} />
+
               <div>{shopColor.text}</div>
             </div>
 
