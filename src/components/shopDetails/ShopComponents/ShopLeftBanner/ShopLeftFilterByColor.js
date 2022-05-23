@@ -2,7 +2,7 @@ import React from "react";
 import { ColorBox } from "./ShopFilterByColorColorBox";
 
 
-let shopColor = [
+let shopData = [
   {
     color: "#000000",
     text: "Black",
@@ -40,15 +40,15 @@ export const ShopLeftFilterByColor = () => {
     <>
       <div className="shopBannerLeft-title">Filter by Color</div>
       <div className="shopBannerLeft-container">
-        {shopColor.map((shopColor) => (
+        {shopData.map((shopData) => (
           <div className="shopBannerLeft-container-content-color">
             <div className="flex">
-              <ColorBox data={{ shopColor }} />
+              <ColorBox data={{ shopData }} />
 
-              <div>{shopColor.text}</div>
+              <div>{shopData.text}</div>
             </div>
 
-            <div className="shopBannerLeft-numberBox">{shopColor.count}</div>
+            <div className="shopBannerLeft-numberBox">{shopData.count}</div>
           </div>
         ))}
       </div>
