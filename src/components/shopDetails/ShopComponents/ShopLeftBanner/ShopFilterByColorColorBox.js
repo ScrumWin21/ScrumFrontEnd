@@ -11,7 +11,7 @@ export const ColorBox = (props) => {
     <>
       <div
         className="shopBannerLeft-colorBox"
-        style={{ backgroundColor: props.data.shopColor.color }}
+        style={{ backgroundColor: props.data.shopData.color }}
         onClick={handleToggle}
       >
         <i
