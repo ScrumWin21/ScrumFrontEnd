@@ -4,6 +4,7 @@ import { ShopFilterByBrand } from "./ShopLeftFilterByBrand";
 import { ShopLeftFilterByColor } from "./ShopLeftFilterByColor";
 import { ShopFilterByPrice } from "./ShopLeftFilterByPrice";
 import { ShopFilterBySize } from "./ShopLeftFilterBySize";
+import { ShopLeftProductStatus } from "./ShopLeftProductStatus";
 
 
 
@@ -15,6 +16,7 @@ export const ShopBannerLeft = () => {
       <ShopLeftFilterByColor />
       <ShopFilterBySize />
       <ShopFilterByBrand />
+      <ShopLeftProductStatus />
     </>
   );
 };

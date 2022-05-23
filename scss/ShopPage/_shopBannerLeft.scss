@@ -65,7 +65,6 @@
 .shopBannerLeft-colorBox {
     width: 20px;
     height: 20px;
-    // background-color: black;
     border-radius: 4px;
     margin-right: 14px;
     display: flex;
@@ -116,4 +115,21 @@
 
   
     }
+}
+
+.shopLeft-ProductStatusBox {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    margin-right: 14px;
+    cursor: pointer;
+    border: 2px solid #AAAAAA;
+}
+.shopLeft-productStatus {
+    display: flex;
+    font-family: $FontMain;
+    align-items: center;
+    color: $ThemeColorDarkBlue;
+    margin-bottom: 15px;
+
 }
