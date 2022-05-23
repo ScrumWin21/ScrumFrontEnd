@@ -1,43 +1,43 @@
 import React from "react";
 
-
 let shopDataSize = [
-    {
-        size: "XS",
-        count: 18
-    },
-    {
-        size: "S",
-        count: 23
-    },
-    {
-        size: "M",
-        count: 32
-    },
-    {
-        size: "L",
-        count: 12
-    },
-    {
-        size: "XL",
-        count: 15
-    },
-    {
-        size: "XXL",
-        count: 12
-    }
-]
-
+  {
+    size: "XS",
+    count: 18,
+  },
+  {
+    size: "S",
+    count: 23,
+  },
+  {
+    size: "M",
+    count: 32,
+  },
+  {
+    size: "L",
+    count: 12,
+  },
+  {
+    size: "XL",
+    count: 15,
+  },
+  {
+    size: "XXL",
+    count: 12,
+  },
+];
 
 export const ShopFilterBySize = () => {
   return (
     <>
       <div className="shopBannerLeft-title">Filter by Size</div>
       <div className="shopBannerLeft-container">
-        <div className="shopBannerLeft-container-content-hoverAll">
-          <div>XS</div>
-          <div className="shopBannerLeft-numberBox">18</div>
-        </div>
+        {shopDataSize.map((shopDataSize) => (
+          <div className="shopBannerLeft-container-content-hoverAll">
+            <div>{shopDataSize.size}</div>
+                <div className="shopBannerLeft-numberBox">{ shopDataSize.count }</div>
+          </div>
+        ))}
       </div>
     </>
   );
