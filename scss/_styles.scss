@@ -1,3 +1,4 @@
+//HOME
 @import "./variables";
 @import "./navbarOne";
 @import "./navbarThree";
@@ -11,6 +12,11 @@
 
 @import "./homeShowcaseEleven";
 @import "./homeShowcaseTwelve";
+
+
+//MYACCOUNT
+@import "./myAccount/register";
+@import "./myAccount/login";
 
 //Small features
 @import "./smallFeatures/smallFeatures";
