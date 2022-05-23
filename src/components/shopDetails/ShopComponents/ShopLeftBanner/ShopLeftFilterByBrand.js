@@ -1,6 +1,8 @@
 import React from "react";
 
-let testGrid = ["One", "Two", "Three"];
+import Bexim from "../../../../images/shopImages/Bexim.svg"
+
+let testGrid = ["One", "Two", "Three", "four", "five"];
 
 export const ShopFilterByBrand = () => {
   return (

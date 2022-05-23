@@ -86,14 +86,23 @@
 
 .shopBannerLeft-filterByColorGrid {
     height: auto;
-    width: 100%;
+    width: 90%;
     display: grid;
     grid-template-rows: repeat(auto 50px);
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: auto auto;
+    border: 1px solid orange;
+    row-gap: 15px;
+    justify-content: space-between
 }
 
 .shopBannerLeft-filterByColorGridItem {
-    background-color: $ThemeColorTeal;
-    width: 50%;
-    height: 100%;
+    width: 100px;
+    height: 32px;
+    border: 1px solid $LineBullet;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
 }
