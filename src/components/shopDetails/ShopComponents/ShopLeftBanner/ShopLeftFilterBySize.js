@@ -1,5 +1,34 @@
 import React from "react";
 
+
+let shopDataSize = [
+    {
+        size: "XS",
+        count: 18
+    },
+    {
+        size: "S",
+        count: 23
+    },
+    {
+        size: "M",
+        count: 32
+    },
+    {
+        size: "L",
+        count: 12
+    },
+    {
+        size: "XL",
+        count: 15
+    },
+    {
+        size: "XXL",
+        count: 12
+    }
+]
+
+
 export const ShopFilterBySize = () => {
   return (
     <>
