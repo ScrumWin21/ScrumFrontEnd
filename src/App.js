@@ -7,8 +7,9 @@ import "./App.scss";
 //SHARED
 import Navbar from "./views/shared/navbar";
 
-//PAGES
+//VIEWS
 import Home from "./views/home";
+import MyAccount from "./views/myAccount";
 
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
         <Routes>
 
           <Route path="/" element={<Home />} />
-          <Route path="/login" element={"< />"} />
+          <Route path="/myAccount" element={<MyAccount />} />
 
         </Routes>
       </BrowserRouter>
