@@ -102,11 +102,18 @@
     display: flex;
     justify-content: center;
     align-content: center;
+    cursor: pointer;
+    &:hover {
+        border: 1px solid $ThemeColorTeal;
+    }
 
     img {
         align-self: center;
     display: block;
     margin: auto;
     height: 80%;
+    width: 80%;
+
+  
     }
 }

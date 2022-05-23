@@ -1391,6 +1391,11 @@ p {
   display: flex;
   justify-content: center;
   align-content: center;
+  cursor: pointer;
+}
+
+.shopBannerLeft-filterByColorGridItem:hover {
+  border: 1px solid #20d3c2;
 }
 
 .shopBannerLeft-filterByColorGridItem img {
@@ -1398,6 +1403,7 @@ p {
   display: block;
   margin: auto;
   height: 80%;
+  width: 80%;
 }
 
 .shopPage-sectionThree-container {
