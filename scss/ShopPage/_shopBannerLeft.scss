@@ -83,3 +83,17 @@
     font-family: $FontMain;
    
 }
+
+.shopBannerLeft-filterByColorGrid {
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(auto 50px);
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.shopBannerLeft-filterByColorGridItem {
+    background-color: $ThemeColorTeal;
+    width: 50%;
+    height: 100%;
+}

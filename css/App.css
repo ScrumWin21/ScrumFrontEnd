@@ -1373,6 +1373,20 @@ p {
   font-family: "Roboto", sans-serif;
 }
 
+.shopBannerLeft-filterByColorGrid {
+  height: auto;
+  width: 100%;
+  display: grid;
+  grid-template-rows: repeat(auto 50px);
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.shopBannerLeft-filterByColorGridItem {
+  background-color: #20d3c2;
+  width: 50%;
+  height: 100%;
+}
+
 .shopPage-sectionThree-container {
   margin-top: 40px;
 }
