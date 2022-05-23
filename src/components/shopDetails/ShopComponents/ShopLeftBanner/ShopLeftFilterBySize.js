@@ -35,7 +35,7 @@ export const ShopFilterBySize = () => {
         {shopDataSize.map((shopDataSize) => (
           <div className="shopBannerLeft-container-content-hoverAll">
             <div>{shopDataSize.size}</div>
-                <div className="shopBannerLeft-numberBox">{ shopDataSize.count }</div>
+            <div className="shopBannerLeft-numberBox">{shopDataSize.count}</div>
           </div>
         ))}
       </div>

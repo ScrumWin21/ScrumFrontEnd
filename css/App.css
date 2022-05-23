@@ -1373,6 +1373,39 @@ p {
   font-family: "Roboto", sans-serif;
 }
 
+.shopBannerLeft-filterByColorGrid {
+  height: auto;
+  width: 90%;
+  display: grid;
+  grid-template-rows: repeat(auto 50px);
+  grid-template-columns: auto auto;
+  row-gap: 15px;
+  justify-content: space-between;
+}
+
+.shopBannerLeft-filterByColorGridItem {
+  width: 100px;
+  height: 32px;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  cursor: pointer;
+}
+
+.shopBannerLeft-filterByColorGridItem:hover {
+  border: 1px solid #20d3c2;
+}
+
+.shopBannerLeft-filterByColorGridItem img {
+  align-self: center;
+  display: block;
+  margin: auto;
+  height: 80%;
+  width: 80%;
+}
+
 .shopPage-sectionThree-container {
   margin-top: 40px;
 }

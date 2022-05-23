@@ -83,3 +83,37 @@
     font-family: $FontMain;
    
 }
+
+.shopBannerLeft-filterByColorGrid {
+    height: auto;
+    width: 90%;
+    display: grid;
+    grid-template-rows: repeat(auto 50px);
+    grid-template-columns: auto auto;
+    row-gap: 15px;
+    justify-content: space-between
+}
+
+.shopBannerLeft-filterByColorGridItem {
+    width: 100px;
+    height: 32px;
+    border: 1px solid $LineBullet;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    cursor: pointer;
+    &:hover {
+        border: 1px solid $ThemeColorTeal;
+    }
+
+    img {
+        align-self: center;
+    display: block;
+    margin: auto;
+    height: 80%;
+    width: 80%;
+
+  
+    }
+}
