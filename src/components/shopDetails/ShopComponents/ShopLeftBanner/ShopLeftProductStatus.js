@@ -11,7 +11,7 @@ export const ShopLeftProductStatus = () => {
                 </div>
                 <div className="shopLeft-productStatus">
                     <div className="shopLeft-ProductStatusBox"></div>
-                    <div> On Sale</div>
+                    <div> In Stock</div>
                 </div>
                   </div>
 
