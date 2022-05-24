@@ -1428,6 +1428,7 @@ p {
   grid-template-rows: 65px 65px 65px;
   font-family: "Roboto", sans-serif;
   color: #0e153d;
+  row-gap: 20px;
 }
 
 .shopLeft-topRatedProducts-grid-productPicture {
