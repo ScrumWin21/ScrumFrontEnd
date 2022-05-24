@@ -133,3 +133,42 @@
     margin-bottom: 15px;
 
 }
+
+.shopLeft-topRatedProducts-gridItem {
+    cursor: pointer;
+    transition: all ease 0.2s;
+    &:hover {
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    }
+}
+
+.shopLeft-topRatedProducts-grid {
+    display: grid;
+    grid-template-rows: 65px 65px 65px;
+    font-family: $FontMain;
+    color: $ThemeColorDarkBlue;
+    row-gap: 20px;
+}
+
+.shopLeft-topRatedProducts-grid-productPicture {
+    height: 65px;
+    width: 65px;
+    border-radius: 5px;
+    background-color: $ProductBackground;
+    margin-right: 10px;
+}
+
+.topRatedProducts-header {
+margin-bottom: 10px;
+}
+
+.topRatedProducts-stars {
+    margin-bottom: 0;
+    img {
+        margin-bottom: 0;
+    }
+}
+
+.topRatedProducts-price {
+    font-weight: 500;
+}
