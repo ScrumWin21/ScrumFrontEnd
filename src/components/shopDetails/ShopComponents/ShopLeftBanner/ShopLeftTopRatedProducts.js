@@ -33,16 +33,16 @@ export const ShopLeftTopRatedProducts = () => {
             <div className="shopLeft-topRatedProducts-gridItem">
               <div className="flex">
                 <div className="shopLeft-topRatedProducts-grid-productPicture">
-                  <img src={ProductShopTShirt}></img>
+                  <img src={topRatedProducts.image}></img>
                 </div>
                 <div>
                   <div className="topRatedProducts-header">
-                    Circle pattern girls...
+                    {topRatedProducts.text}
                   </div>
                   <div className="topRatedProducts-stars">
                     <img src={FiveStars}></img>
                   </div>
-                  <div className="topRatedProducts-price">$190</div>
+                          <div className="topRatedProducts-price">{ topRatedProducts.price }</div>
                 </div>
               </div>
             </div>
