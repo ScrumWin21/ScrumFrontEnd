@@ -1,5 +1,7 @@
 import React from "react";
 
+//Hard code data - To be switched with API
+
 let shopDataSize = [
   {
     size: "XS",

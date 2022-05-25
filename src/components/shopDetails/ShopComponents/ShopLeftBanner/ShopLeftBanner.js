@@ -7,8 +7,6 @@ import { ShopFilterBySize } from "./ShopLeftFilterBySize";
 import { ShopLeftProductStatus } from "./ShopLeftProductStatus";
 import { ShopLeftTopRatedProducts } from "./ShopLeftTopRatedProducts";
 
-
-
 export const ShopBannerLeft = () => {
   return (
     <>

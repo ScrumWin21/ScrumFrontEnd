@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 
-
 export const ColorBox = (props) => {
   const [isActive, setActive] = useState("false");
 
+  //Display and remove checkbox on click
   const handleToggle = () => {
     setActive(!isActive);
   };
@@ -20,10 +20,8 @@ export const ColorBox = (props) => {
           className={
             !isActive ? "fa-regular fa-check" : "fa-regular fa-checked"
           }
-          
         ></i>
       </div>
-  
     </>
   );
 };

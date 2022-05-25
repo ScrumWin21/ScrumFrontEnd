@@ -1,11 +1,14 @@
 import React from "react";
 
+//Image imports
 import Bexim from "../../../../images/shopImages/Bexim.svg";
 import Lighton from "../../../../images/shopImages/Lighton.svg";
 import Dismis from "../../../../images/shopImages/Dismis.svg";
 import Rosimo from "../../../../images/shopImages/Rosimo.svg";
 import Dallas from "../../../../images/shopImages/Dallas.svg";
 import Concord from "../../../../images/shopImages/Concord.svg";
+
+//Hard code data - To be switched with API
 
 let logos = [
   {

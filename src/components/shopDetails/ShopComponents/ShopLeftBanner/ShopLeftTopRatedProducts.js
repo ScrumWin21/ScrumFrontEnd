@@ -1,10 +1,12 @@
 import React from "react";
 
+//Image imports
 import FiveStars from "../../../../images/shopImages/FiveStars.svg";
 import ProductShopTShirt from "../../../../images/shopImages/ProductShopTShirt.svg";
 import ProductShopShoes from "../../../../images/shopImages/ProductShopShoes.svg";
 import ProductShopSweater from "../../../../images/shopImages/ProductShopSweater.svg";
 
+//Hard code data - To be switched with API
 let topRatedProducts = [
   {
     text: "Circle pattern girls...",
