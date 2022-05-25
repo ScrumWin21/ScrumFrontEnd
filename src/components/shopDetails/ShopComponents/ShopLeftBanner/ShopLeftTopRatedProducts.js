@@ -42,7 +42,9 @@ export const ShopLeftTopRatedProducts = () => {
                   <div className="topRatedProducts-stars">
                     <img src={FiveStars}></img>
                   </div>
-                          <div className="topRatedProducts-price">{ topRatedProducts.price }</div>
+                  <div className="topRatedProducts-price">
+                    {topRatedProducts.price}
+                  </div>
                 </div>
               </div>
             </div>

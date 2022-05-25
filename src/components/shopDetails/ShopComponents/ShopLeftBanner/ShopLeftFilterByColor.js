@@ -38,12 +38,15 @@ let shopData = [
 export const ShopLeftFilterByColor = () => {
   return (
     <>
-      <div className="shopBannerLeft-title">Filter by Color</div>
+      <div  className="shopBannerLeft-title">Filter by Color</div>
       <div className="shopBannerLeft-container">
         {shopData.map((shopData) => (
           <div className="shopBannerLeft-container-content-color">
-            <div className="flex">
-              <ColorBox data={{ shopData }} />
+            <div  className="flex">
+              <ColorBox  data={{ shopData }}
+                
+        
+        />
 
               <div>{shopData.text}</div>
             </div>
