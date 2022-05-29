@@ -886,6 +886,82 @@ p {
   justify-content: space-between;
 }
 
+.bg-registerform {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 790px;
+}
+
+.bg-registerform .ContainerRegular .FormSection {
+  height: 670px;
+  width: 540px;
+  background-color: #f6f6f6;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg-registerform .ContainerRegular .FormSection form h1 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #0e153d;
+}
+
+.bg-registerform .ContainerRegular .FormSection form p {
+  font-size: 14px;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+  color: #777777;
+}
+
+.bg-registerform .ContainerRegular .FormSection form .Label-input input {
+  height: 42px;
+  width: 100%;
+  border: none;
+  margin-bottom: 1.2rem;
+}
+
+.bg-registerform .ContainerRegular .FormSection form .Label-input .Label-star {
+  margin-bottom: 0.5rem;
+}
+
+.bg-registerform .ContainerRegular .FormSection form .Label-input .Label-star label {
+  font-size: 16px;
+  margin-right: 0.2rem;
+  color: #0e153d;
+}
+
+.bg-registerform .ContainerRegular .FormSection form .Label-input .Label-star span {
+  color: #20d3c2;
+}
+
+.bg-registerform .ContainerRegular .FormSection form span {
+  font-size: 16px;
+  line-height: 1.5rem;
+  color: #0e153d;
+}
+
+.bg-registerform .ContainerRegular .FormSection form #PrivacyPolicySpan {
+  margin-left: -0.8rem;
+  font-weight: 500;
+  color: #20d3c2;
+}
+
+.bg-registerform .ContainerRegular .FormSection form button {
+  display: block;
+  height: 54px;
+  width: 100%;
+  border-radius: 30px;
+  border: none;
+  background-color: #20d3c2;
+  color: #ffffff;
+  margin-top: 1.5rem;
+  font-size: 18px;
+  font-weight: 500;
+}
+
 #displayNew {
   width: 60px;
   height: 60px;

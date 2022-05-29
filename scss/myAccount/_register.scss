@@ -1,0 +1,79 @@
+.bg-registerform {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        height: 790px;
+
+    .ContainerRegular {
+    
+        .FormSection {
+            height: 670px;
+            width: 540px;
+            background-color: $LightGreyBackground;
+            font-family: $FontMain;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    
+            form {
+                h1 {
+                    font-size: 24px;
+                    font-weight: 500;
+                    color: $ThemeColorDarkBlue;
+                }
+                p {
+                    font-size: 14px;
+                    line-height: 1.5rem;
+                    margin-bottom: 1rem;
+                    color: #777777;
+                }
+    
+                .Label-input {
+                    
+                    input {
+                        height: 42px;
+                        width: 100%;
+                        border: none;
+                        margin-bottom: 1.2rem;
+                    }
+                    .Label-star {
+                        margin-bottom: 0.5rem;
+    
+                        label {
+                            font-size: 16px;
+                            margin-right: 0.2rem;
+                            color: $ThemeColorDarkBlue;
+                        }
+                        span {
+                            color: $ThemeColorTeal;
+                        }
+                    }
+                }
+    
+                span {
+                    font-size: 16px;
+                    line-height: 1.5rem;
+                    color: $ThemeColorDarkBlue;
+                }
+                #PrivacyPolicySpan {
+                    margin-left: -0.8rem;
+                    font-weight: 500;
+                    color: $ThemeColorTeal;
+                }
+    
+                button {
+                    display: block;
+                    height: 54px;
+                    width: 100%;
+                    border-radius: 30px;
+                    border: none;
+                    background-color: $ThemeColorTeal;
+                    color: $White;
+                    margin-top: 1.5rem;
+                    font-size: 18px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}
