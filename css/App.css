@@ -899,11 +899,11 @@ p {
   background-color: #f6f6f6;
   font-family: "Roboto", sans-serif;
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 
 .Bg-registerform .ContainerRegular .FormSection form h1 {
+  margin-top: 2rem;
   font-size: 24px;
   font-weight: 500;
   color: #0e153d;
@@ -916,11 +916,16 @@ p {
   color: #777777;
 }
 
+.Bg-registerform .ContainerRegular .FormSection form .Label-input {
+  position: relative;
+}
+
 .Bg-registerform .ContainerRegular .FormSection form .Label-input input {
   height: 42px;
   width: 100%;
   border: none;
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.4rem;
+  font-size: 16px;
 }
 
 .Bg-registerform .ContainerRegular .FormSection form .Label-input .Label-star {
@@ -935,6 +940,15 @@ p {
 
 .Bg-registerform .ContainerRegular .FormSection form .Label-input .Label-star span {
   color: #20d3c2;
+}
+
+.Bg-registerform .ContainerRegular .FormSection form .Label-input .Error-message {
+  font-size: 12px;
+  color: #f87676;
+  position: absolute;
+  bottom: -0.1rem;
+  width: 100%;
+  text-align: center;
 }
 
 .Bg-registerform .ContainerRegular .FormSection form span {
@@ -957,7 +971,7 @@ p {
   border: none;
   background-color: #20d3c2;
   color: #ffffff;
-  margin-top: 1.5rem;
+  margin-top: 1.4rem;
   font-size: 18px;
   font-weight: 500;
 }

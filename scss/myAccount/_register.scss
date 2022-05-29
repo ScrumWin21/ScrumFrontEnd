@@ -12,11 +12,11 @@
             background-color: $LightGreyBackground;
             font-family: $FontMain;
             display: flex;
-            align-items: center;
             justify-content: center;
     
             form {
                 h1 {
+                    margin-top: 2rem;
                     font-size: 24px;
                     font-weight: 500;
                     color: $ThemeColorDarkBlue;
@@ -29,12 +29,14 @@
                 }
     
                 .Label-input {
-                    
+                    position: relative;
+
                     input {
                         height: 42px;
                         width: 100%;
                         border: none;
-                        margin-bottom: 1.2rem;
+                        margin-bottom: 1.4rem;
+                        font-size: 16px;
                     }
                     .Label-star {
                         margin-bottom: 0.5rem;
@@ -48,6 +50,15 @@
                             color: $ThemeColorTeal;
                         }
                     }
+                    .Error-message {
+                        font-size: 12px;
+                        color: rgb(248, 118, 118);
+
+                        position: absolute;
+                        bottom: -0.1rem;
+                        width: 100%;
+                        text-align: center;
+                    }
                 }
     
                 span {
@@ -60,7 +71,6 @@
                     font-weight: 500;
                     color: $ThemeColorTeal;
                 }
-    
                 button {
                     display: block;
                     height: 54px;
@@ -69,7 +79,7 @@
                     border: none;
                     background-color: $ThemeColorTeal;
                     color: $White;
-                    margin-top: 1.5rem;
+                    margin-top: 1.4rem;
                     font-size: 18px;
                     font-weight: 500;
                 }

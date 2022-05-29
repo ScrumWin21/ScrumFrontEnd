@@ -19,6 +19,7 @@ const RegisterForm = () => {
                                 <span>*</span>
                             </div>
                             <input type="text" />
+                            <span id='Error-username' className='Error-message'>Minimum of two characters required.</span>
                         </div>
                         <div className='Label-input'>
                             <div className='Label-star'>
@@ -26,15 +27,17 @@ const RegisterForm = () => {
                                 <span>*</span>
                             </div>
                             <input type="text" />
+                            <span id='Error-email' className='Error-message'>Valid email address required.</span>
                         </div>
                         <div className='Label-input'>
                             <div className='Label-star'>
                                 <label htmlFor="">Password</label>
                                 <span>*</span>
                             </div>
-                            <input type="text" />
+                            <input type="password" />
+                            <span id='Error-password' className='Error-message'>Secure password required.</span>
                         </div>
-                        <span>Your personal data will be used to support your experience<br/>
+                        <span id='PolicySpan'>Your personal data will be used to support your experience<br/>
                             throughout this website, to manage access to your account, and for<br />
                             other purposes described in our</span>
                         <span id="PrivacyPolicySpan">privacy policy.</span>
