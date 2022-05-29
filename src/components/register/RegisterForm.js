@@ -4,7 +4,7 @@ const RegisterForm = () => {
   return (
     <>
     
-        <div className='bg-registerform'>
+        <div className='Bg-registerform'>
             <div className='ContainerRegular'>
                 <div className='FormSection'>
                     <form action="">
