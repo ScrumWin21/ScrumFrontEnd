@@ -957,7 +957,7 @@ p {
   color: #0e153d;
 }
 
-.Bg-registerform .ContainerRegular .FormSection form #PrivacyPolicySpan {
+.Bg-registerform .ContainerRegular .FormSection form #privacyPolicySpan {
   margin-left: -0.8rem;
   font-weight: 500;
   color: #20d3c2;
