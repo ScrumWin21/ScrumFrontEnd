@@ -1,10 +1,10 @@
 import "./App.scss";
-import { NavbarThree } from "./components/shared/NavbarThree";
+
 
 function App() {
   return (
     <>
-      <NavbarThree />
+      
     </>
   );
 }
