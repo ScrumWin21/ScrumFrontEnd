@@ -6,6 +6,8 @@ import nikeShoeThree from "../../../images/nikeshoe-three.webp";
 import nikeShoeFour from "../../../images/nikeshoe-four.webp";
 import nikeShoeFive from "../../../images/nikeshoe-five.webp";
 
+import Colors from "./Colors";
+
 export class Product extends React.Component{
     state = {
         products: [
@@ -24,19 +26,36 @@ export class Product extends React.Component{
                 "colors": ["green","red","blue","black"],
                 "count": 1
             }
-        ]
+        ],
+        index: 0
+    };
+
+    myRef = React.createRef();
+
+    handleTab = index => {
+        this.setState({index: index})
+        const images = this.myRef.current.children;
+        for(let i=0; i < images.length; i++){
+            images[i].className = images[i].className.replace("active", "");
+        }
+        images[index].className = "active";
+    };
+
+    componentDidMount(){
+        const {index} = this.state;
+        this.myRef.current.children[index].className = "active";
     }
 
     render(){
-        const {products} = this.state;
+        const {products, index} = this.state;
         return(
             <div className="product">
                 {
                     products.map(item =>(
-                        <div className="details">
+                        <div className="details" key={item._id}>
 
                             <div className="big-img">
-                                <img src={item.src[0]} alt="" />
+                                <img src={item.src[index]} alt="" />
                             </div>
 
                             <div className="box">
@@ -46,24 +65,18 @@ export class Product extends React.Component{
                                     <span>${item.price}</span>
                                 </div>
 
-                                <div className="colors">
-                                    {
-                                        item.colors.map(color =>(
-                                            <button style={{background: color}}></button>
-                                        ))
-                                    }
-                                </div>
+                                <Colors colors={item.colors} />
 
                                 <p>{item.description}</p>
 
-                                <div className="thumb">
+                                <div className="thumb" ref={this.myRef}>
                                     {
-                                        item.src.map(img => (
-                                            <img src={img} alt="" />
+                                        item.src.map((img, index ) => (
+                                            <img src={img} alt="" key={index} onClick={() => this.handleTab(index)} />
                                         ))
                                     }
                                 </div>
-                                
+
                                 <button className="cart">Add to cart</button>
                             </div>
                         </div>
