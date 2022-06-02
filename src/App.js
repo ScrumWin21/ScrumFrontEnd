@@ -1,5 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import "./App.scss";
+
 import { ProductPage } from "./views/ProductPage";
 
 function App() {
@@ -7,6 +9,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
+          <Route path="/" element={<ProductPage />}/>
           <Route path="/ProductPage" element={<ProductPage />} />
         </Routes>
       </BrowserRouter>
