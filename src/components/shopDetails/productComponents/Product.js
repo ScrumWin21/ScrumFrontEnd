@@ -33,7 +33,9 @@ export class Product extends React.Component{
                 "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud.",
                 "price": "190.00",
                 "colors": ["#64CB83","#FE4545","#00DCFF","#000000"],
-                "amount": 1
+                "amount": 1,
+                "category": "Shoes",
+                "Tags": ["Fashion", "Shoes", "Sneakers"]
             }
         ],
         index: 0
@@ -101,8 +103,8 @@ export class Product extends React.Component{
                                         <img src={heartIcon} alt="" />
                                     </div>
 
-                                    <p>Category: <span className="category-name">Shoes</span></p>
-                                    <p>Tags: <span>Fashion</span> <span>Shoes</span> <span>Sneakers</span></p>
+                                    <p>Category: <span className="category-name">{item.category}</span></p>
+                                    <p>Tags: <span>{item.Tags[0]}</span> <span>{item.Tags[1]}</span> <span>{item.Tags[2]}</span></p>
                                     <p className="share-icons">Share: <img src={facebook} alt="" /> <img src={twitter} alt="" /> <img src={pinterest} alt="" /> <img src={linkedin} alt="" /> <img src={email} alt="" /></p>
                                     
                                 </div>
