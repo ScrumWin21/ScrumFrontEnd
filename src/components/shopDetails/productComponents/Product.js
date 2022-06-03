@@ -8,9 +8,15 @@ import inStock from "../../../images/InStock.svg";
 import cartIcon from "../../../images/CartIcon.svg";
 import compareIcon from "../../../images/CompareIcon.svg";
 import heartIcon from "../../../images/HeartIcon.svg";
+import facebook from "../../../images/Facebook.svg";
+import twitter from "../../../images/Twitter.svg";
+import pinterest from "../../../images/Pinterest.svg";
+import linkedin from "../../../images/Linkedin.svg";
+import email from "../../../images/Email.svg";
 
 import Colors from "./Colors";
 import DetailsThumb from "./DetailsThumb";
+
 
 export class Product extends React.Component{
     state = {
@@ -26,7 +32,8 @@ export class Product extends React.Component{
                 ],
                 "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud.",
                 "price": "190.00",
-                "colors": ["#64CB83","#FE4545","#00DCFF","#000000"]
+                "colors": ["#64CB83","#FE4545","#00DCFF","#000000"],
+                "amount": 1
             }
         ],
         index: 0
@@ -80,6 +87,11 @@ export class Product extends React.Component{
                                     </div>
                                         
                                     <div className="cart-details">
+                                        <div className="amount">
+                                            <button className="dec-amount">-</button>
+                                            <span>{item.amount}</span>
+                                            <button className="add-amount">+</button>
+                                        </div>
                                         <button className="cart">
                                             <img src={cartIcon} alt="" />
                                             Add to cart
@@ -89,6 +101,9 @@ export class Product extends React.Component{
                                         <img src={heartIcon} alt="" />
                                     </div>
 
+                                    <p>Category: <span className="category-name">Shoes</span></p>
+                                    <p>Tags: <span>Fashion</span> <span>Shoes</span> <span>Sneakers</span></p>
+                                    <p className="share-icons">Share: <img src={facebook} alt="" /> <img src={twitter} alt="" /> <img src={pinterest} alt="" /> <img src={linkedin} alt="" /> <img src={email} alt="" /></p>
                                     
                                 </div>
                             </div>
