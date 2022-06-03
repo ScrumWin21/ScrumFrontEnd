@@ -6,11 +6,8 @@ import nikeShoeFour from "../../../images/nikeshoe-four.webp";
 import nikeShoeFive from "../../../images/nikeshoe-five.webp";
 import inStock from "../../../images/InStock.svg";
 import cartIcon from "../../../images/CartIcon.svg";
-import bigCircle from "../../../images/BigCircle.svg";
-import blackCircle from "../../../images/BlackCircle.svg";
-import blueCircle from "../../../images/BlueCircle.svg";
-import greenCircle from "../../../images/GreenCircle.svg";
-import redCircle from "../../../images/RedCircle.svg";
+import compareIcon from "../../../images/CompareIcon.svg";
+import heartIcon from "../../../images/HeartIcon.svg";
 
 import Colors from "./Colors";
 import DetailsThumb from "./DetailsThumb";
@@ -88,6 +85,8 @@ export class Product extends React.Component{
                                             Add to cart
                                         </button>
                                         <Colors colors={item.colors} />
+                                        <img src={compareIcon} alt="" />
+                                        <img src={heartIcon} alt="" />
                                     </div>
 
                                     
